@@ -45,13 +45,16 @@
                   "topic_id": "kg_num_01",
                   "title": "1. Counting Fruits",
                   "subtitle": "Learn how to count sweet fruits",
+                  "teacher_explanation": "Hello little learner! Look at all the juicy, colorful fruits on the screen. Let's count them together step-by-step!",
                   "notes": "Look at the colorful fruits! Can you count how many apples and oranges we have?",
+                  "audio_path": "assets/audio/kg_num_01.mp3",
                   "diagram": "assets/images/fruits_banner.png",
                   "quiz": [
                     {
                       "id": "q_kg_1",
                       "type": "identify_image",
                       "question": "Tap the card that shows 3 Apples:",
+                      "teacher_explanation": "Look at the cards below. Which card has three apples on it?",
                       "options": [
                         {"image": "assets/images/1_apple.png", "value": "1"},
                         {"image": "assets/images/3_apples.png", "value": "3"},
@@ -90,13 +93,16 @@
                   "topic_id": "p1_math_01",
                   "title": "1. Numbers & Counting 1 to 20",
                   "subtitle": "Learn how to count objects from 1 to 20",
+                  "teacher_explanation": "Welcome to Counting! Counting means finding out how many objects are in a group. Let's practice counting from 1 all the way to 20 together!",
                   "notes": "Welcome to Counting! Counting means finding out how many objects are in a group. Let's practice counting from 1 to 20.",
+                  "audio_path": "assets/audio/p1_math_01.mp3",
                   "diagram": "assets/images/counting_chart.png",
                   "quiz": [
                     {
                       "id": "q1",
                       "type": "mcq",
                       "question": "What number comes immediately after 4?",
+                      "teacher_explanation": "Think of counting numbers in order: 1, 2, 3, 4... what comes next?",
                       "options": ["3", "5", "2", "6"],
                       "correct_answer": "5",
                       "explanation": "When counting: 1, 2, 3, 4, 5. The number after 4 is 5!"
@@ -105,6 +111,7 @@
                       "id": "q2",
                       "type": "fill_blank",
                       "question": "Complete the sequence: 10, 11, __, 13",
+                      "teacher_explanation": "Count out loud starting from 10. What number goes right between 11 and 13?",
                       "correct_answer": "12",
                       "explanation": "12 comes right between 11 and 13 when counting in order."
                     },
@@ -112,6 +119,7 @@
                       "id": "q3",
                       "type": "theory",
                       "question": "Why is counting important in daily life?",
+                      "teacher_explanation": "Why do we count things when we go to the market or play with toys?",
                       "correct_answer": "Counting helps us know how many items, money, or objects we have.",
                       "explanation": "We use counting every day when shopping, sharing toys, or telling time!"
                     }
@@ -121,13 +129,16 @@
                   "topic_id": "p1_math_02",
                   "title": "2. Simple Addition",
                   "subtitle": "Adding single digit numbers together using visual aids",
+                  "teacher_explanation": "Addition means putting two or more groups of things together to find out how many there are in total!",
                   "notes": "Addition means putting two or more numbers together to find the total. Symbol (+) means plus. Example: 1 + 1 = 2.",
+                  "audio_path": "assets/audio/p1_math_02.mp3",
                   "diagram": "",
                   "quiz": [
                     {
                       "id": "q4",
                       "type": "mcq",
                       "question": "What is 3 + 2?",
+                      "teacher_explanation": "If you hold up 3 fingers on one hand, and 2 fingers on the other hand, how many fingers are you holding up?",
                       "options": ["4", "5", "6", "3"],
                       "correct_answer": "5",
                       "explanation": "If you have 3 apples and get 2 more, you have 5 apples in total!"
@@ -136,6 +147,7 @@
                       "id": "q5",
                       "type": "fill_blank",
                       "question": "Calculate: 5 + 4 = __",
+                      "teacher_explanation": "Add 5 and 4 together to find the sum.",
                       "correct_answer": "9",
                       "explanation": "5 plus 4 equals 9."
                     }
