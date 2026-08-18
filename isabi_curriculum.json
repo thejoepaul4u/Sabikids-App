@@ -1,0 +1,387 @@
+{
+  "version": "1.0.2",
+  "last_updated": "2026-08-16",
+  "levels": [
+    {
+      "level_id": "level_1",
+      "title": "Level I",
+      "subtitle": "Beginner Challenges & Foundations",
+      "color": [
+        0.04,
+        0.22,
+        0.12,
+        1
+      ],
+      "subjects": [
+        {
+          "subject_id": "math",
+          "title": "Mathematics",
+          "subtitle": "Basic Operations & Speed Calculations",
+          "color": [
+            0.04,
+            0.22,
+            0.12,
+            1
+          ],
+          "quizzes": [
+            {
+              "id": "l1_math_q1",
+              "type": "mcq",
+              "question": "What is 15 + 27?",
+              "options": [
+                "40",
+                "42",
+                "45",
+                "38"
+              ],
+              "correct_answer": "42"
+            },
+            {
+              "id": "l1_math_q2",
+              "type": "identify_image",
+              "question": "Which geometric shape is shown in the image?",
+              "image_path": "assets/images/quiz/triangle.png",
+              "options": [
+                "Square",
+                "Triangle",
+                "Circle",
+                "Pentagon"
+              ],
+              "correct_answer": "Triangle"
+            }
+          ]
+        },
+        {
+          "subject_id": "eng",
+          "title": "English Language",
+          "subtitle": "Grammar, Vocabulary & Synonyms",
+          "color": [
+            0.6,
+            0.2,
+            0.05,
+            1
+          ],
+          "quizzes": [
+            {
+              "id": "l1_eng_q1",
+              "type": "mcq",
+              "question": "Choose the synonym for 'Rapid':",
+              "options": [
+                "Slow",
+                "Quick",
+                "Heavy",
+                "Quiet"
+              ],
+              "correct_answer": "Quick"
+            }
+          ]
+        },
+        {
+          "subject_id": "nig_social",
+          "title": "Nig Social",
+          "subtitle": "Generated Subject",
+          "color": [
+            0.04,
+            0.22,
+            0.12,
+            1
+          ],
+          "quizzes": [
+            {
+              "id": "nig_soc_l1_q1",
+              "type": "mcq",
+              "question": "In what year did Nigeria gain independence from British rule?",
+              "options": [
+                "1957",
+                "1960",
+                "1963",
+                "1970"
+              ],
+              "correct_answer": "1960"
+            },
+            {
+              "id": "nig_soc_l1_q2",
+              "type": "mcq",
+              "question": "Who was the first Prime Minister of independent Nigeria?",
+              "options": [
+                "Nnamdi Azikiwe",
+                "Abubakar Tafawa Balewa",
+                "Obafemi Awolowo",
+                "Ahmadu Bello"
+              ],
+              "correct_answer": "Abubakar Tafawa Balewa"
+            },
+            {
+              "id": "nig_soc_l1_q3",
+              "type": "mcq",
+              "question": "Which date is celebrated as Nigeria's Independence Day?",
+              "options": [
+                "October 1st",
+                "May 29th",
+                "January 15th",
+                "October 12th"
+              ],
+              "correct_answer": "October 1st"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level_id": "level_2",
+      "title": "Level II",
+      "subtitle": "Intermediate Puzzles & Speed Tests",
+      "color": [
+        0.6,
+        0.2,
+        0.05,
+        1
+      ],
+      "subjects": [
+        {
+          "subject_id": "Financial_reporting",
+          "title": "Financial Reporting",
+          "subtitle": "Basics of Accounting & Reporting",
+          "color": [
+            0.6,
+            0.2,
+            0.05,
+            1
+          ],
+          "quizzes": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "question": "An entity sells goods for N10,000 with an agreement to repurchase them in 12 months for N11,000. Under the principle of substance over form, how should this transaction be recorded at inception?",
+              "options": [
+                "Sale of goods for N10,000 with profit recognized immediately",
+                "Secured loan of N10,000 received with a liability recorded in payables",
+                "Deferred income of N1,000 and sales revenue of N10,000",
+                "Operating lease with lease rental income of N1,000"
+              ],
+              "correct_answer": "Secured loan of N10,000 received with a liability recorded in payables"
+            },
+            {
+              "id": "q2",
+              "type": "mcq",
+              "question": "Company X is in severe financial distress and management decides to liquidate the business within two months. How should its assets be classified and measured in the financial statements?",
+              "options": [
+                "Non-current assets at historical cost less accumulated depreciation",
+                "Current assets at fair value less cost of long-term disposal",
+                "All assets classified as current and valued at recoverable amount on sale",
+                "Non-current assets at value in use and current assets at historical cost"
+              ],
+              "correct_answer": "All assets classified as current and valued at recoverable amount on sale"
+            },
+            {
+              "id": "q3",
+              "type": "mcq",
+              "question": "Under the IASB Conceptual Framework, which qualitative characteristic is directly affected by materiality, and what type of characteristic is it?",
+              "options": [
+                "Faithful representation; Fundamental characteristic",
+                "Relevance; Fundamental characteristic",
+                "Comparability; Enhancing characteristic",
+                "Timeliness; Enhancing characteristic"
+              ],
+              "correct_answer": "Relevance; Fundamental characteristic"
+            },
+            {
+              "id": "q4",
+              "type": "mcq",
+              "question": "In Nigeria, according to the legal framework for financial reporting, what is a mandatory publication requirement for limited liability companies' annual financial statements?",
+              "options": [
+                "Published on the company website and sent to shareholders via email",
+                "Published in at least 2 national dailies and signed by a director registered with FRC of Nigeria",
+                "Filed exclusively with the International Accounting Standards Board",
+                "Published in the Government Official Gazette within 12 months of year-end"
+              ],
+              "correct_answer": "Published in at least 2 national dailies and signed by a director registered with FRC of Nigeria"
+            },
+            {
+              "id": "q5",
+              "type": "mcq",
+              "question": "A building carried at N1,500,000 is expected to be sold for N1,200,000 because the company is preparing financial statements under the break-up basis. What is the amount of re-measurement loss to be recognized?",
+              "options": [
+                "N1,500,000",
+                "N1,200,000",
+                "N300,000",
+                "N0"
+              ],
+              "correct_answer": "N300,000"
+            },
+            {
+              "id": "q6",
+              "type": "mcq",
+              "question": "Under IAS 1, if an entity breaches a loan covenant on or before the reporting date making the liability payable on demand, how is the liability classified if the lender agrees after the reporting date not to demand payment?",
+              "options": [
+                "Non-current liability",
+                "Current liability",
+                "Contingent liability disclosed only in notes",
+                "Equity component"
+              ],
+              "correct_answer": "Current liability"
+            },
+            {
+              "id": "q7",
+              "type": "mcq",
+              "question": "Under the IASB Conceptual Framework, which set of attributes correctly describes a perfectly faithful representation?",
+              "options": [
+                "Relevant, Comparable, and Timely",
+                "Complete, Neutral, and Free from error",
+                "Understandable, Verifiable, and Material",
+                "Predictive, Confirmatory, and Objective"
+              ],
+              "correct_answer": "Complete, Neutral, and Free from error"
+            },
+            {
+              "id": "q8",
+              "type": "mcq",
+              "question": "Joe Co buys 100 T-shirts for N3.50 each in cash. During the month, 30 T-shirts are sold for N7.00 each in cash. What is the profit for the month under the Accrual Basis versus the Cash Basis?",
+              "options": [
+                "Accrual: N105 profit; Cash: N140 loss",
+                "Accrual: N210 profit; Cash: N350 loss",
+                "Accrual: N105 profit; Cash: N210 profit",
+                "Accrual: N350 profit; Cash: N105 loss"
+              ],
+              "correct_answer": "Accrual: N105 profit; Cash: N140 loss"
+            },
+            {
+              "id": "q9",
+              "type": "mcq",
+              "question": "Which user group of financial statements requires information specifically to assess the entity's ability to pay dividends and manage risk and return on investment?",
+              "options": [
+                "Lenders",
+                "Suppliers and trade payables",
+                "Present and potential investors",
+                "Governments and their agencies"
+              ],
+              "correct_answer": "Present and potential investors"
+            },
+            {
+              "id": "q10",
+              "type": "mcq",
+              "question": "According to the IASB Conceptual Framework, when does derecognition of a liability normally occur?",
+              "options": [
+                "When the entity loses control of the economic resource",
+                "When the entity no longer has a present obligation for all or part of the recognized liability",
+                "When the fair value of the liability becomes zero",
+                "When the lender requests a conversion into share capital"
+              ],
+              "correct_answer": "When the entity no longer has a present obligation for all or part of the recognized liability"
+            },
+            {
+              "id": "q11",
+              "type": "mcq",
+              "question": "What is required under the 'statutory true and fair override' when complying with company law accounting rules fails to produce a true and fair view?",
+              "options": [
+                "The company must revalue all non-current assets to fair value",
+                "The rules must be departed from, and details, reasons, and financial effects must be disclosed",
+                "The company must switch from IFRS to Cash Basis accounting",
+                "The financial statements must be withheld from public release"
+              ],
+              "correct_answer": "The rules must be departed from, and details, reasons, and financial effects must be disclosed"
+            },
+            {
+              "id": "q12",
+              "type": "mcq",
+              "question": "Under financial capital maintenance measured in constant purchasing power, how is profit earned during a period determined?",
+              "options": [
+                "When physical productive capability at the end of the period exceeds opening physical capability",
+                "When ending equity exceeds opening equity uprated by a general price index",
+                "When gross cash inflows exceed total operating expenses",
+                "When total assets equal total liabilities plus issued share capital"
+              ],
+              "correct_answer": "When ending equity exceeds opening equity uprated by a general price index"
+            },
+            {
+              "id": "q13",
+              "type": "mcq",
+              "question": "Which of the following is categorized as an 'Enhancing Qualitative Characteristic' under the IASB Conceptual Framework?",
+              "options": [
+                "Relevance",
+                "Faithful Representation",
+                "Verifiability",
+                "Materiality"
+              ],
+              "correct_answer": "Verifiability"
+            },
+            {
+              "id": "q14",
+              "type": "mcq",
+              "question": "How is an asset defined in the IASB Conceptual Framework?",
+              "options": [
+                "A physical item owned legally by the company that generates profit",
+                "A present economic resource controlled by the entity as a result of past events",
+                "Any future cash flow expected to be received within twelve months",
+                "The net residual interest in the entity after deducting all liabilities"
+              ],
+              "correct_answer": "A present economic resource controlled by the entity as a result of past events"
+            },
+            {
+              "id": "q15",
+              "type": "mcq",
+              "question": "According to IAS 1, which of the following is NOT a mandatory component of a complete set of financial statements?",
+              "options": [
+                "Statement of Financial Position",
+                "Statement of Changes in Equity",
+                "Chairman's Public Relations Speech",
+                "Notes to the Financial Statements"
+              ],
+              "correct_answer": "Chairman's Public Relations Speech"
+            }
+          ]
+        },
+        {
+          "subject_id": "nig_social",
+          "title": "Nig Social & Cultural Education",
+          "subtitle": "Civics, History & Heritage",
+          "color": [
+            0.55,
+            0.42,
+            0.05,
+            1
+          ],
+          "quizzes": [
+            {
+              "id": "l2_nig_social_q1",
+              "type": "mcq",
+              "question": "Nigeria gained Independence in what year?",
+              "options": [
+                "1966",
+                "1960",
+                "2026",
+                "1880"
+              ],
+              "correct_answer": "1960"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level_id": "level_3",
+      "title": "Level III",
+      "subtitle": "Advanced Mastery & Brain Teasers",
+      "color": [
+        0.05,
+        0.22,
+        0.38,
+        1
+      ],
+      "subjects": [
+        {
+          "subject_id": "qa",
+          "title": "Quantitative Reasoning (QA)",
+          "subtitle": "Complex Pattern Logic",
+          "color": [
+            0.05,
+            0.22,
+            0.38,
+            1
+          ],
+          "quizzes": []
+        }
+      ]
+    }
+  ]
+}
