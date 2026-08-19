@@ -42,7 +42,7 @@
               "question": "Which geometric shape is shown in the image?",
               "image_path": "assets/images/quiz/triangle.png",
               "options": [
-                "Square",
+                "rectangle",
                 "Triangle",
                 "Circle",
                 "Pentagon"
