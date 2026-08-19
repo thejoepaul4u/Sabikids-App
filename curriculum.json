@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "last_updated": "2026-07-31",
   "tiers": [
     {
@@ -17,21 +17,21 @@
           "class_id": "creche",
           "title": "Crèche / Playgroup",
           "subtitle": "Ages 0 - 2 • Toddler Care & Early Exploration",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "pre_nursery",
           "title": "Pre-Nursery",
           "subtitle": "Ages 2 - 3 • Social Skills & Play Learning",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "nursery_1",
           "title": "Nursery 1",
           "subtitle": "Ages 3 - 4 • Early Literacy & Basic Sounds",
-          "version": "1.0.15",
+          "version": "1.0.1",
           "subjects": [
             {
               "subject_id": "n1_literacy",
@@ -48,18 +48,18 @@
                   "topic_id": "n1_lit_01",
                   "title": "LETTER A & PHONICS",
                   "subtitle": "Learn Letter A and Apple",
-                  "notes": "Letter A makes the ah sound!\n- A is for Apple!\n- Big Letter A stands tall like a tent!\n- Point to the red apple!",
-                  "teacher_explanation": "Hello little star! Let us learn the special letter A today! [Yippee!] Big Letter A says ah, ah, ah! Can you say ah? [Giggle!] A is for juicy red Apple! [Chomp chomp!] Let us clap for Letter A! [Clap Clap!]",
-                  "animation_video_concept": "Scene 1: A bright blue sunny background appears with happy music playing. A big shiny red Apple wearing a cute tiny hat bounces into the center screen. [Boing boing!]\nScene 2: Apple smiles and says Hi friends! I start with Letter A! Ah-Ah-Apple!.\nScene 3: A huge golden Big Letter A zooms down from the sky next to Apple, sparkling brightly with chiming sound effects. [Ding ding!]\nScene 4: The teacher mascot, Sammy the Squirrel, jumps in holding a giant magnifying glass. Sammy points to Big Letter A and traces it in the air with yellow stars.\nScene 5: Little green ants crawl across the screen carrying apples, singing the Ah-Ah-Apple song together. [Pop pop!]\nScene 6: Apple and Letter A dance together while colorful confetti falls, encouraging the kids to clap their hands!",
-                  "video_path": "assets/videos/nursery_1_letter_a.mp4",
+                  "notes": "A is for Apple!\nLetter A makes the ah sound.\nPoint to the shiny red apple!",
+                  "teacher_explanation": "Hello my little star! Welcome to our fun letter adventure! Today we are learning about the wonderful Letter A! Letter A says ah-ah-ah! Can you say ah-ah-ah with me? [Clap Clap!] Great job! Look at that tasty red apple! Ah-ah-Apple! [Giggle!] Let us sing together, A is for Apple, ah-ah-ah!",
+                  "animation_video_concept": "Scene 1: A bright blue background appears with soft sunshine rays. A cheerful red Apple with big eyes and blue shoes bounces onto the screen to a happy melody [Pop Sound!]. Apple waves its hand and says 'Hello! I start with Letter A!'. Scene 2: A glowing gold Letter A drops down gently next to the Apple [Ding Sound!]. The Letter A sparkles as it makes the ah-ah-ah sound. Scene 3: The Apple and Letter A hold hands and do a little dance together while children cheer in the background [Cheering Sounds!]. Scene 4: Three objects slide onto the screen: an Apple, an Ant, and an Alligator. The camera zooms in on the Apple as it glows brightly. Scene 5: Letter A and Apple wave goodbye as colorful confetti floats down from the top of the screen.",
+                  "video_path": "assets/videos/letter_a_phonics.mp4",
                   "diagram": "",
-                  "audio_path": "assets\\audio\\n1_lit_01_notes.mp3",
+                  "audio_path": "assets/audio/n1_lit_01_notes.mp3",
                   "quiz": [
                     {
                       "id": "n1_lit_01_q1",
                       "type": "identify_image",
-                      "question": "Which picture starts with the ah sound like Letter A?",
-                      "image_path": "assets/images/quiz/letter_a_big.png",
+                      "question": "Touch the picture that starts with Letter A!",
+                      "image_path": "assets/images/quiz/letter_a_card.png",
                       "options": [
                         {
                           "value": "Apple",
@@ -71,14 +71,14 @@
                         }
                       ],
                       "correct_answer": "Apple",
-                      "explanation": "Great job! A is for Apple! Ah, ah, apple!",
-                      "audio_path": "assets\\audio\\questions\\n1_lit_01_q1.mp3"
+                      "explanation": "Yay! A is for Apple!",
+                      "audio_path": "assets/audio/questions/n1_lit_01_q1.mp3"
                     },
                     {
                       "id": "n1_lit_01_q2",
                       "type": "visual_choice",
-                      "question": "Tap the big Letter A!",
-                      "image_path": "assets/images/quiz/find_letter_a.png",
+                      "question": "Which picture shows the Letter A?",
+                      "image_path": "assets/images/quiz/find_letter.png",
                       "options": [
                         {
                           "value": "Letter A",
@@ -90,129 +90,110 @@
                         }
                       ],
                       "correct_answer": "Letter A",
-                      "explanation": "Super star! That is the letter A!",
-                      "audio_path": "assets\\audio\\questions\\n1_lit_01_q2.mp3"
+                      "explanation": "Super job! That is the Letter A!",
+                      "audio_path": "assets/audio/questions/n1_lit_01_q2.mp3"
                     },
                     {
                       "id": "n1_lit_01_q3",
                       "type": "identify_image",
                       "question": "Can you find the red Apple?",
-                      "image_path": "assets/images/quiz/apple_group.png",
+                      "image_path": "assets/images/quiz/apple_hunt.png",
                       "options": [
-                        {
-                          "value": "Red Apple",
-                          "image": "assets/images/quiz/red_apple.png"
-                        },
-                        {
-                          "value": "Yellow Banana",
-                          "image": "assets/images/quiz/banana.png"
-                        }
-                      ],
-                      "correct_answer": "Red Apple",
-                      "explanation": "Yay! Red Apple starts with A!",
-                      "audio_path": "assets\\audio\\questions\\n1_lit_01_q3.mp3"
-                    },
-                    {
-                      "id": "n1_lit_01_q4",
-                      "type": "visual_choice",
-                      "question": "Which little friend starts with Letter A?",
-                      "image_path": "assets/images/quiz/ant_or_cat.png",
-                      "options": [
-                        {
-                          "value": "Ant",
-                          "image": "assets/images/quiz/ant.png"
-                        },
                         {
                           "value": "Cat",
                           "image": "assets/images/quiz/cat.png"
+                        },
+                        {
+                          "value": "Apple",
+                          "image": "assets/images/quiz/apple.png"
                         }
                       ],
-                      "correct_answer": "Ant",
-                      "explanation": "Hooray! A is for Ant! Ah-Ah-Ant!",
-                      "audio_path": "assets\\audio\\questions\\n1_lit_01_q4.mp3"
+                      "correct_answer": "Apple",
+                      "explanation": "Wonderful! That is a tasty red Apple!",
+                      "audio_path": "assets/audio/questions/n1_lit_01_q3.mp3"
                     }
                   ],
                   "challenge": {
-                    "title": "Apple Sound Hunt!",
-                    "instructions": "Go on a fun Letter A hunt around the house with Mummy or Daddy!",
-                    "task_question": "Find an apple or point to something red in your kitchen!",
-                    "parent_grading_guide": "Parent Note: Give your toddler a big hug and high-five when they say the ah sound or point to an apple!"
+                    "title": "Fun Home Hunt!",
+                    "instructions": "Go on an Apple Hunt with Mummy or Daddy!",
+                    "task_question": "Find something red like an apple in your room!",
+                    "parent_grading_guide": "Parent Note: Give your toddler a big high-five when they point out any red object!"
                   }
                 },
                 {
                   "topic_id": "n1_lit_02",
                   "title": "NUMBERS & COUNTING",
                   "subtitle": "Count Objects 1 to 5",
-                  "notes": "Let us count together from 1 to 5!\n- 1 Tree standing tall in the park.\n- 2 Ducks swimming in the lake.\n- 3 Bright stars shining in the sky.\n- 4 Balloons floating up high.\n- 5 Yummy red apples in the basket!",
-                  "teacher_explanation": "Hello my little friends! Today we are going to learn how to count from 1 to 5! Are you ready? Let us count together! Look, there is 1 big tree standing in the garden! Now look at the water! 1, 2 friendly ducks! [Quack Quack!] Look up at the night sky! 1, 2, 3 twinkling stars! Look at the colorful balloons floating up! 1, 2, 3, 4 balloons! [Pop!] And yum! 1, 2, 3, 4, 5 delicious red apples! [Nom Nom!] You are a counting superstar! [Clap Clap!]",
-                  "animation_video_concept": "Scene 1: A friendly cartoon squirrel named Sammy steps into a colorful park and greets the children with a wave. Cheerful music plays in the background. Scene 2: Sammy points to a single green tree in the meadow. A giant glowing number 1 appears above the tree with a ding sound. Scene 3: Sammy walks to a blue pond where 2 yellow ducks paddle across. Sammy counts '1, 2 ducks!' as they quack joyfully [Quack Quack!]. A giant glowing number 2 pops up. Scene 4: Night softly falls in the animation, revealing 3 bright gold stars in the sky. Sammy counts '1, 2, 3 stars!' with magical chime sounds. A giant glowing number 3 appears. Scene 5: Day returns and 4 bright red balloons float across the screen. Sammy counts '1, 2, 3, 4 balloons!'. A giant glowing number 4 appears. Scene 6: Sammy finds a wooden basket filled with 5 red apples. Sammy counts each apple '1, 2, 3, 4, 5 apples!'. Giant glowing number 5 appears with fireworks and cheering sounds [Yay!].",
+                  "notes": "Counting is fun and easy!\n- Let us count numbers from 1 to 5!\n- 1 Tree, 2 Ducks, 3 Stars, 4 Balloons, 5 Apples!\n- Point and count with your fingers today!",
+                  "teacher_explanation": "Hello my super star! Let us count numbers together today! Ready? One tree! [Pop!] Two friendly ducks! [Quack Quack!] Three shiny stars! [Sparkle Sound!] Four floating balloons! [Whoosh!] Five delicious red apples! [Yum Yum!] You counted all the way to five! High five! [Clap Clap!]",
+                  "animation_video_concept": "Scene 1: A cheerful green background with bright sunlight. A big cartoon number 1 walks in and points to 1 green tree while gentle chimes play.\nScene 2: Number 2 slides in wearing a funny hat. Two yellow ducks swim across a blue pond saying Quack Quack.\nScene 3: Number 3 floats down on a soft cloud. Three gold stars twinkle brightly in the sky with soft ding sounds.\nScene 4: Number 4 bounces in with four colorful balloons floating overhead. A pop sound plays as each balloon bounces.\nScene 5: Number 5 dances in cheerfully while five red apples roll into a wooden basket one by one.\nScene 6: All numbers 1, 2, 3, 4, and 5 stand together while colorful confetti falls and cheerful music plays.",
                   "video_path": "assets/videos/count_objects_1_to_5.mp4",
                   "diagram": "",
-                  "audio_path": "assets\\audio\\n1_lit_02_notes.mp3",
+                  "audio_path": "assets/audio/n1_lit_02_notes.mp3",
                   "quiz": [
                     {
                       "id": "n1_lit_02_q1",
                       "type": "identify_image",
-                      "question": "How many friendly ducks do you see swimming?",
-                      "image_path": "assets/images/quiz/two_ducks.png",
+                      "question": "Which picture shows 2 friendly ducks?",
+                      "image_path": "assets/images/quiz/ducks_question.png",
                       "options": [
                         {
                           "value": "2 Ducks",
-                          "image": "assets/images/quiz/two_ducks_opt.png"
-                        },
-                        {
-                          "value": "5 Apples",
-                          "image": "assets/images/quiz/five_apples_opt.png"
-                        }
-                      ],
-                      "correct_answer": "2 Ducks",
-                      "explanation": "Great job! There are 2 friendly ducks!",
-                      "audio_path": "assets\\audio\\questions\\n1_lit_02_q1.mp3"
-                    },
-                    {
-                      "id": "n1_lit_02_q2",
-                      "type": "visual_choice",
-                      "question": "Which picture shows 3 shining stars?",
-                      "image_path": "assets/images/quiz/three_stars_question.png",
-                      "options": [
-                        {
-                          "value": "3 Stars",
-                          "image": "assets/images/quiz/three_stars.png"
+                          "image": "assets/images/quiz/two_ducks.png"
                         },
                         {
                           "value": "1 Tree",
                           "image": "assets/images/quiz/one_tree.png"
                         }
                       ],
+                      "correct_answer": "2 Ducks",
+                      "explanation": "Great job! There are 2 ducks swimming!",
+                      "audio_path": "assets/audio/questions/n1_lit_02_q1.mp3"
+                    },
+                    {
+                      "id": "n1_lit_02_q2",
+                      "type": "visual_choice",
+                      "question": "How many shiny stars do you see?",
+                      "image_path": "assets/images/quiz/three_stars.png",
+                      "options": [
+                        {
+                          "value": "3 Stars",
+                          "image": "assets/images/quiz/count_3.png"
+                        },
+                        {
+                          "value": "1 Star",
+                          "image": "assets/images/quiz/count_1.png"
+                        }
+                      ],
                       "correct_answer": "3 Stars",
                       "explanation": "Super! You counted 3 shiny stars!",
-                      "audio_path": "assets\\audio\\questions\\n1_lit_02_q2.mp3"
+                      "audio_path": "assets/audio/questions/n1_lit_02_q2.mp3"
                     },
                     {
                       "id": "n1_lit_02_q3",
                       "type": "identify_image",
-                      "question": "Count the red apples! How many apples are there?",
-                      "image_path": "assets/images/quiz/five_apples.png",
+                      "question": "Which group shows 5 red apples?",
+                      "image_path": "assets/images/quiz/apples_question.png",
                       "options": [
                         {
                           "value": "5 Apples",
-                          "image": "assets/images/quiz/number_5.png"
+                          "image": "assets/images/quiz/five_apples.png"
                         },
                         {
                           "value": "4 Balloons",
-                          "image": "assets/images/quiz/number_4.png"
+                          "image": "assets/images/quiz/four_balloons.png"
                         }
                       ],
                       "correct_answer": "5 Apples",
-                      "explanation": "Awesome! There are 5 delicious red apples!",
-                      "audio_path": "assets\\audio\\questions\\n1_lit_02_q3.mp3"
+                      "explanation": "Wonderful! There are 5 red apples in total!",
+                      "audio_path": "assets/audio/questions/n1_lit_02_q3.mp3"
                     }
                   ],
                   "challenge": {
-                    "title": "High Five Counting Challenge!",
-                    "instructions": "Count objects around your home with Mummy or Daddy!",
-                    "task_question": "Find 3 toys or 5 spoons and count them out loud step-by-step!",
-                    "parent_grading_guide": "Parent Note: Give your child a high-five and cheer when they point to each item while counting out loud from 1 to 5!"
+                    "title": "Number Hunt at Home",
+                    "instructions": "Find and count objects in your room with Mummy or Daddy!",
+                    "task_question": "Can you find 3 toys and count them out loud one by one?",
+                    "parent_grading_guide": "Parent Note: Give your toddler a big hug and a high-five when they point and count each object from 1 to 3 accurately!"
                   }
                 }
               ]
@@ -223,14 +204,14 @@
           "class_id": "nursery_2",
           "title": "Nursery 2",
           "subtitle": "Ages 4 - 5 • Language & Number Awareness",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "kindergarten",
           "title": "Kindergarten",
           "subtitle": "Ages 5 - 6 • Transition Year & School Readiness",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": [
             {
               "subject_id": "kg_num",
@@ -263,7 +244,7 @@
           "class_id": "p1",
           "title": "Primary 1",
           "subtitle": "Lower Primary",
-          "version": "1.0.22",
+          "version": "1.0.1",
           "subjects": [
             {
               "subject_id": "p1_math",
@@ -291,197 +272,199 @@
                   "topic_id": "p1_management_01",
                   "title": "1. NATURE OF BUSINESS",
                   "subtitle": "Understanding the Basics",
-                  "notes": "Definition & Core Concept\n- Business is a lawful human activity directed at making profit by producing and selling goods or services.\n- Goods are items you can touch, like bread, books, and clothes.\n- Services are actions people do for others, like haircuts, teaching, and medical care.\n\nKey Features / Characteristics\n- Business involves buying, selling, or making goods and services.\n- Business activities must be continuous, not a single one-time sale.\n- Every business requires an investment of money or items to start.\n- The main goal of a business is to earn a profit.\n\nImportance & Practical Applications\n- Business meets human needs and desires by providing goods and services.\n- Business creates jobs for people so they can earn money.\n- Business helps to create wealth and raise the standard of living.\n\nTypes & Classification\n- Sole Proprietorship is a business owned and managed by one person.\n- Partnership is a business owned by two or more people working together.\n- Corporation is a large business owned by shareholders.\n\nLessons Learnt / Takeaway Summary\n- Businesses help society by meeting daily needs and creating jobs.\n- Earning profit is essential for a business to grow and survive.",
-                  "teacher_explanation": "Hello class! Today we are going to learn about the Nature of Business.\n\nFirst, let us look at the Definition & Core Concept.\n\nNote says: Business is a lawful human activity directed at making profit by producing and selling goods or services.\nThis means that when people do legal work to make things or help others so they can earn extra money, they are running a business.\n\nNote says: Goods are items you can touch, like bread, books, and clothes.\nFor example, when you go to a shop and buy an apple or a pencil that you can hold in your hand, you are buying a good.\n\nNote says: Services are actions people do for others, like haircuts, teaching, and medical care.\nThis means if a barber cuts your hair or a teacher teaches you in school, they are doing a helpful job for you, which is called a service.\n\nNext, let us discuss Key Features / Characteristics.\n\nNote says: Business involves buying, selling, or making goods and services.\nThis means every business either makes something new or trades items with people for money.\n\nNote says: Business activities must be continuous, not a single one-time sale.\nFor instance, if you sell your old toy once to your friend, that is not a business. But if you open a toy shop and sell toys every day, that is a business.\n\nNote says: Every business requires an investment of money or items to start.\nThis means a shopkeeper needs some money first to buy goods before putting them on shelves to sell.\n\nNote says: The main goal of a business is to earn a profit.\nProfit is the extra money a business owner earns after paying for all expenses.\n\nNow, let us talk about Importance & Practical Applications.\n\nNote says: Business meets human needs and desires by providing goods and services.\nWithout businesses, it would be hard to get food, clothes, or rides to school.\n\nNote says: Business creates jobs for people so they can earn money.\nStores and factories hire workers and pay them salaries so they can care for their families.\n\nNote says: Business helps to create wealth and raise the standard of living.\nWhen businesses do well, the whole community gets better roads, shops, and living conditions.\n\nLet us look at Types & Classification.\n\nNote says: Sole Proprietorship is a business owned and managed by one person.\nThink of a small neighborhood corner shop run by one friendly storekeeper.\n\nNote says: Partnership is a business owned by two or more people working together.\nThis is like two friends joining their money and ideas together to open a bakery.\n\nNote says: Corporation is a large business owned by shareholders.\nThese are very big companies, like bank organizations or car factories, owned by many people.\n\nFinally, here is our Lessons Learnt / Takeaway Summary.\n\nNote says: Businesses help society by meeting daily needs and creating jobs.\nBusinesses make our lives easier by making sure we have everything we need every day.\n\nNote says: Earning profit is essential for a business to grow and survive.\nWhen a business makes a profit, it can stay open and keep serving people for a long time.",
+                  "notes": "DEFINITION & CORE CONCEPT\nBusiness is a lawful human activity directed at the production and distribution of goods and services with the aim of making profit.\nGoods are items you can see and touch like toys, clothes, and bread.\nServices are helpful activities performed by people like teaching, cutting hair, and fixing cars.\nProfit is the money a business earns after paying for all costs.\n\nKEY FEATURES / CHARACTERISTICS\nBusiness involves buying and selling goods and services.\nBusiness activities must be continuous and done regularly.\nBusiness needs an investment of money or items to start.\nBusiness involves risk because success is not always guaranteed.\nThe primary goal of a business is to earn profit.\n\nIMPORTANCE & PRACTICAL APPLICATIONS\nBusiness meets human needs by providing food, clothes, and tools.\nBusiness creates employment opportunities for people to earn money.\nBusiness helps to build wealth and improve standard of living.\n\nADVANTAGES & DISADVANTAGES\nSole proprietorship is easy to form and controlled by one person.\nUnlimited liability means an owner may lose personal assets if the business fails.\nPartnership allows two or more people to share skills and money.\n\nLESSONS LEARNT / TAKEAWAY SUMMARY\nBusiness helps society by providing goods, services, and jobs.\nProfit helps a business grow and stay alive.\nDifferent types of ownership allow one person or many people to run a business together.",
+                  "teacher_explanation": "Hello little learners! Welcome to our lesson on Nature of Business.\n\nLet us start with DEFINITION AND CORE CONCEPT.\n\nBusiness is a lawful human activity directed at the production and distribution of goods and services with the aim of making profit. This means when adults make things or sell things legally to earn money, they are running a business!\n\nGoods are items you can see and touch like toys, clothes, and bread. Think about going to a toy store. When you buy a teddy bear, you are holding a good!\n\nServices are helpful activities performed by people like teaching, cutting hair, and fixing cars. When you go to a barber or hair salon, you do not take a physical toy home, but you get a nice haircut. That is a service!\n\nProfit is the money a business earns after paying for all costs. If you buy a lemon for five naira, sell lemonade for ten naira, and pay one naira for sugar, the leftover money is your profit!\n\nNow let us look at KEY FEATURES AND CHARACTERISTICS.\n\nBusiness involves buying and selling goods and services. Every time money is traded for a toy or a service, business is happening.\n\nBusiness activities must be continuous and done regularly. Selling one old shoe once to your friend is not a business, but opening a shoe shop every day is a business!\n\nBusiness needs an investment of money or items to start. You need some money to buy supplies before you can open your shop.\n\nBusiness involves risk because success is not always guaranteed. Sometimes a shopkeeper might not sell all the fruit before it spoils, so they must be careful!\n\nThe primary goal of a business is to earn profit. Earnings keep the business running and help the owner buy food and clothes for their family.\n\nNext, let us talk about IMPORTANCE AND PRACTICAL APPLICATIONS.\n\nBusiness meets human needs by providing food, clothes, and tools. Without bakeries, we would not have fresh bread every morning!\n\nBusiness creates employment opportunities for people to earn money. Businesses hire workers like cashiers and drivers so they can earn salaries.\n\nBusiness helps to build wealth and improve standard of living. When businesses do well, towns build better roads, schools, and parks.\n\nNow, let us discuss ADVANTAGES AND DISADVANTAGES.\n\nSole proprietorship is easy to form and controlled by one person. If your aunt opens a small fruit stand all by herself, she is a sole proprietor and gets to make all the decisions!\n\nUnlimited liability means an owner may lose personal assets if the business fails. If the business owes money, the owner might have to use their personal savings to pay it back.\n\nPartnership allows two or more people to share skills and money. When two friends join together to open a bakery, they can buy bigger ovens and share the work!\n\nFinally, here is our LESSONS LEARNT AND TAKEAWAY SUMMARY.\n\nBusiness helps society by providing goods, services, and jobs. It keeps our community happy and working together.\n\nProfit helps a business grow and stay alive. Without profit, a business cannot buy new stock or pay its workers.\n\nDifferent types of ownership allow one person or many people to run a business together. Whether alone or with friends, people can work together to build great things! You did a fantastic job today!",
                   "animation_video_concept": "",
                   "video_path": "assets/videos/p1_nature_of_business.mp4",
                   "diagram": "",
-                  "audio_path": "assets\\audio\\p1_management_01_notes.mp3",
+                  "audio_path": "assets/audio/p1_management_01_notes.mp3",
                   "quiz": [
                     {
                       "id": "p1_management_01_q1",
                       "type": "fill_blank",
-                      "question": "Business is a lawful human activity directed at making _______ by producing and selling goods or services.",
+                      "question": "Business is a lawful human activity directed at the production and distribution of goods and services with the aim of making _______.",
                       "correct_answer": "profit",
-                      "explanation": "According to the notes: Business is a lawful human activity directed at making profit by producing and selling goods or services.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q1.mp3"
+                      "explanation": "Directly from notes: Business is a lawful human activity directed at the production and distribution of goods and services with the aim of making profit.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q1.mp3"
                     },
                     {
                       "id": "p1_management_01_q2",
                       "type": "fill_blank",
-                      "question": "_______ are items you can touch, like bread, books, and clothes.",
+                      "question": "_______ are items you can see and touch like toys, clothes, and bread.",
                       "correct_answer": "Goods",
-                      "explanation": "According to the notes: Goods are items you can touch, like bread, books, and clothes.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q2.mp3"
+                      "explanation": "Directly from notes: Goods are items you can see and touch like toys, clothes, and bread.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q2.mp3"
                     },
                     {
                       "id": "p1_management_01_q3",
                       "type": "fill_blank",
-                      "question": "Business activities must be _______, not a single one-time sale.",
-                      "correct_answer": "continuous",
-                      "explanation": "According to the notes: Business activities must be continuous, not a single one-time sale.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q3.mp3"
+                      "question": "_______ are helpful activities performed by people like teaching, cutting hair, and fixing cars.",
+                      "correct_answer": "Services",
+                      "explanation": "Directly from notes: Services are helpful activities performed by people like teaching, cutting hair, and fixing cars.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q3.mp3"
                     },
                     {
                       "id": "p1_management_01_q4",
                       "type": "fill_blank",
-                      "question": "Sole Proprietorship is a business owned and managed by _______ person.",
-                      "correct_answer": "one",
-                      "explanation": "According to the notes: Sole Proprietorship is a business owned and managed by one person.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q4.mp3"
+                      "question": "Business activities must be _______ and done regularly.",
+                      "correct_answer": "continuous",
+                      "explanation": "Directly from notes: Business activities must be continuous and done regularly.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q4.mp3"
                     },
                     {
                       "id": "p1_management_01_q5",
                       "type": "fill_blank",
-                      "question": "_______ are actions people do for others, like haircuts, teaching, and medical care.",
-                      "correct_answer": "Services",
-                      "explanation": "According to the notes: Services are actions people do for others, like haircuts, teaching, and medical care.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q5.mp3"
+                      "question": "_______ proprietorship is easy to form and controlled by one person.",
+                      "correct_answer": "Sole",
+                      "explanation": "Directly from notes: Sole proprietorship is easy to form and controlled by one person.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q5.mp3"
                     },
                     {
                       "id": "p1_management_01_q6",
                       "type": "theory",
-                      "question": "What do we call items you can touch, like bread and books?",
-                      "correct_answer": "Goods",
-                      "explanation": "The notes state that goods are items you can touch, like bread, books, and clothes.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q6.mp3"
+                      "question": "What is the primary goal of a business?",
+                      "correct_answer": "To earn profit",
+                      "explanation": "Directly from notes: The primary goal of a business is to earn profit.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q6.mp3"
                     },
                     {
                       "id": "p1_management_01_q7",
                       "type": "theory",
-                      "question": "What is a business owned and managed by one person called?",
-                      "correct_answer": "Sole Proprietorship",
-                      "explanation": "The notes state that Sole Proprietorship is a business owned and managed by one person.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q7.mp3"
+                      "question": "What are items you can see and touch like toys, clothes, and bread called?",
+                      "correct_answer": "Goods",
+                      "explanation": "Directly from notes: Goods are items you can see and touch like toys, clothes, and bread.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q7.mp3"
                     },
                     {
                       "id": "p1_management_01_q8",
                       "type": "theory",
-                      "question": "What is the main goal of a business?",
-                      "correct_answer": "To earn a profit",
-                      "explanation": "The notes state that the main goal of a business is to earn a profit.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q8.mp3"
+                      "question": "What form of business ownership is controlled by one person?",
+                      "correct_answer": "Sole proprietorship",
+                      "explanation": "Directly from notes: Sole proprietorship is easy to form and controlled by one person.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q8.mp3"
                     },
                     {
                       "id": "p1_management_01_q9",
                       "type": "theory",
-                      "question": "How many people own a partnership business?",
-                      "correct_answer": "Two or more people",
-                      "explanation": "The notes state that a Partnership is a business owned by two or more people working together.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q9.mp3"
+                      "question": "What business ownership allows two or more people to share skills and money?",
+                      "correct_answer": "Partnership",
+                      "explanation": "Directly from notes: Partnership allows two or more people to share skills and money.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q9.mp3"
                     },
                     {
                       "id": "p1_management_01_q10",
                       "type": "theory",
-                      "question": "What type of business is owned by shareholders?",
-                      "correct_answer": "Corporation",
-                      "explanation": "The notes state that a Corporation is a large business owned by shareholders.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q10.mp3"
+                      "question": "What is the money a business earns after paying for all costs?",
+                      "correct_answer": "Profit",
+                      "explanation": "Directly from notes: Profit is the money a business earns after paying for all costs.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q10.mp3"
                     },
                     {
                       "id": "p1_management_01_q11",
                       "type": "mcq",
                       "question": "Which of the following is an example of a service?",
                       "options": [
-                        "A. Bread",
-                        "B. Haircut",
-                        "C. Book",
-                        "D. Toy"
+                        "A. A loaf of bread",
+                        "B. A toy car",
+                        "C. A haircut by a barber",
+                        "D. A pair of shoes"
                       ],
-                      "correct_answer": "B. Haircut",
-                      "explanation": "Haircuts, teaching, and medical care are actions done for others, which makes them services.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q11.mp3"
+                      "correct_answer": "C. A haircut by a barber",
+                      "explanation": "A haircut is an activity performed by a person to help someone, making it a service.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q11.mp3"
                     },
                     {
                       "id": "p1_management_01_q12",
                       "type": "mcq",
-                      "question": "Why do people start and run a business?",
+                      "question": "What is the primary goal of a business enterprise?",
                       "options": [
-                        "A. To lose money",
-                        "B. To earn a profit",
-                        "C. To stop working",
-                        "D. To give away goods for free"
+                        "A. To give away free toys",
+                        "B. To earn profit",
+                        "C. To close early every day",
+                        "D. To avoid selling goods"
                       ],
-                      "correct_answer": "B. To earn a profit",
-                      "explanation": "The primary objective or main goal of any business enterprise is to earn a profit.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q12.mp3"
+                      "correct_answer": "B. To earn profit",
+                      "explanation": "As stated in the notes, the primary goal of any business is to earn profit.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q12.mp3"
                     },
                     {
                       "id": "p1_management_01_q13",
                       "type": "mcq",
-                      "question": "Selling your old school bag just once to a friend is not a business because business activities must be:",
+                      "question": "Which business ownership type is owned and controlled by just one individual?",
                       "options": [
-                        "A. One-time",
-                        "B. Continuous",
-                        "C. Free",
-                        "D. Silent"
+                        "A. Partnership",
+                        "B. Corporation",
+                        "C. Sole proprietorship",
+                        "D. Government agency"
                       ],
-                      "correct_answer": "B. Continuous",
-                      "explanation": "A single isolated transaction is not a business. Business activities must be regular and continuous.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q13.mp3"
+                      "correct_answer": "C. Sole proprietorship",
+                      "explanation": "A sole proprietorship is a business setup controlled and managed by one person.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q13.mp3"
                     },
                     {
                       "id": "p1_management_01_q14",
                       "type": "mcq",
-                      "question": "A business owned by two or more people who agree to share profits and responsibilities is a:",
+                      "question": "Why is selling a single old toy once not considered a business?",
                       "options": [
-                        "A. Sole Proprietorship",
-                        "B. Partnership",
-                        "C. Single business",
-                        "D. Toy store"
+                        "A. Toys are too small",
+                        "B. Business activities must be continuous",
+                        "C. Toys are not goods",
+                        "D. It is against the law"
                       ],
-                      "correct_answer": "B. Partnership",
-                      "explanation": "A partnership is formed when two or more individuals join together to operate a business.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q14.mp3"
+                      "correct_answer": "B. Business activities must be continuous",
+                      "explanation": "Business requires continuous and regular trading activities, not just a single transaction.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q14.mp3"
                     },
                     {
                       "id": "p1_management_01_q15",
                       "type": "mcq",
-                      "question": "Which of the following is a major benefit that businesses provide to society?",
+                      "question": "How does business help people in a community?",
                       "options": [
-                        "A. Creating employment opportunities",
-                        "B. Making people unhappy",
-                        "C. Closing down markets",
-                        "D. Stopping trade"
+                        "A. By stopping all trade",
+                        "B. By making everyone stay home",
+                        "C. By creating employment opportunities",
+                        "D. By hiding goods"
                       ],
-                      "correct_answer": "A. Creating employment opportunities",
-                      "explanation": "Businesses create jobs for individuals, allowing them to earn money and support their standard of living.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q15.mp3"
+                      "correct_answer": "C. By creating employment opportunities",
+                      "explanation": "Businesses provide jobs for people, allowing them to earn money and support their families.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q15.mp3"
                     },
                     {
                       "id": "p1_management_01_q16",
                       "type": "identify_image",
                       "image_path": "assets/images/quiz/p1_q16.png",
-                      "question": "Look at the picture. Is the tailor sewing clothes providing a good or a service?",
+                      "question": "Look at the picture of a doctor examining a patient. Is the doctor providing a good or a service?",
                       "options": [
-                        "A. Good",
-                        "B. Service"
+                        "A. A good",
+                        "B. A service",
+                        "C. A physical product",
+                        "D. A partnership"
                       ],
-                      "correct_answer": "B. Service",
-                      "explanation": "An action performed for someone else, like sewing or repairing clothes, is a service.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q16.mp3"
+                      "correct_answer": "B. A service",
+                      "explanation": "Medical care is an activity provided to help someone, which makes it a service.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q16.mp3"
                     },
                     {
                       "id": "p1_management_01_q17",
                       "type": "identify_image",
                       "image_path": "assets/images/quiz/p1_q17.png",
-                      "question": "Look at the picture of a fruit seller at her market stand. What form of business ownership is usually run by a single owner like this?",
+                      "question": "Look at the fruit stand run by a single shopkeeper in the image. What form of business ownership is depicted?",
                       "options": [
-                        "A. Sole Proprietorship",
+                        "A. Partnership",
                         "B. Corporation",
-                        "C. Partnership",
-                        "D. Public Company"
+                        "C. Sole proprietorship",
+                        "D. Public enterprise"
                       ],
-                      "correct_answer": "A. Sole Proprietorship",
-                      "explanation": "A sole proprietorship is a simple form of business owned, managed, and controlled by one individual.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_01_q17.mp3"
+                      "correct_answer": "C. Sole proprietorship",
+                      "explanation": "A business owned and run by one single individual is a sole proprietorship.",
+                      "audio_path": "assets/audio/questions/p1_management_01_q17.mp3"
                     }
                   ],
                   "challenge": {
-                    "title": "Home Assignment & Practical Challenge",
-                    "instructions": "Find three different items around your home. Show them to your parent or guardian. Tell your parent whether each item is a good or a service. Then, pick one item and pretend to sell it to your parent by setting a fair price.",
-                    "task_question": "Name the three items you selected, state whether each one is a good or a service, and state the price you chose for your pretend sale.",
-                    "parent_grading_guide": "Observe your child's responses. Verify that your child correctly identifies physical objects as goods and non-physical tasks as services. Ensure they understand the concept of placing a price on an item for trade. Grade based on correct classification and clear presentation."
+                    "title": "Home Business Exploration Challenge",
+                    "instructions": "Set up a mini pretend store at home using three household items (such as a book, an apple, and a toy). Assign a pretend price to each item.",
+                    "task_question": "Roleplay with a family member where you act as the shopkeeper selling your store items for pretend coins. Explain to your customer whether each item you sell is a good or a service, and calculate the total money you collected!",
+                    "parent_grading_guide": "Observe if your child can identify their physical shop items as 'goods' (since they can be touched and held) and understand that trading goods for coins represents how a business earns money. Ensure the student completes the practical simulation actively."
                   }
                 },
                 {
@@ -493,7 +476,7 @@
                   "animation_video_concept": "",
                   "video_path": "assets/videos/p1_business_environment.mp4",
                   "diagram": "",
-                  "audio_path": "assets\\audio\\p1_management_02_notes.mp3",
+                  "audio_path": "assets/audio/p1_management_02_notes.mp3",
                   "quiz": [
                     {
                       "id": "p1_management_02_q1",
@@ -501,7 +484,7 @@
                       "question": "A business is a place where people sell goods or services to get ____.",
                       "correct_answer": "money",
                       "explanation": "From the notes: 'A business is a place where people sell goods or services to get money.'",
-                      "audio_path": "assets\\audio\\questions\\p1_management_02_q1.mp3"
+                      "audio_path": "assets/audio/questions/p1_management_02_q1.mp3"
                     },
                     {
                       "id": "p1_management_02_q2",
@@ -509,7 +492,7 @@
                       "question": "A clean and safe business environment makes customers ____.",
                       "correct_answer": "happy",
                       "explanation": "From the notes: 'Advantage: A clean and safe business environment makes customers happy.'",
-                      "audio_path": "assets\\audio\\questions\\p1_management_02_q2.mp3"
+                      "audio_path": "assets/audio/questions/p1_management_02_q2.mp3"
                     },
                     {
                       "id": "p1_management_02_q3",
@@ -517,7 +500,7 @@
                       "question": "What means everything around a place where buying and selling happen?",
                       "correct_answer": "Business environment",
                       "explanation": "From the notes: 'Business environment means everything around a place where buying and selling happen.'",
-                      "audio_path": "assets\\audio\\questions\\p1_management_02_q3.mp3"
+                      "audio_path": "assets/audio/questions/p1_management_02_q3.mp3"
                     },
                     {
                       "id": "p1_management_02_q4",
@@ -525,7 +508,7 @@
                       "question": "Who are the two types of people included in a business environment?",
                       "correct_answer": "Sellers and buyers",
                       "explanation": "From the notes: 'It includes people like sellers and buyers.'",
-                      "audio_path": "assets\\audio\\questions\\p1_management_02_q4.mp3"
+                      "audio_path": "assets/audio/questions/p1_management_02_q4.mp3"
                     },
                     {
                       "id": "p1_management_02_q5",
@@ -539,7 +522,7 @@
                       ],
                       "correct_answer": "A. Market",
                       "explanation": "Markets, shops, and supermarkets are places where business takes place.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_02_q5.mp3"
+                      "audio_path": "assets/audio/questions/p1_management_02_q5.mp3"
                     },
                     {
                       "id": "p1_management_02_q6",
@@ -553,7 +536,7 @@
                       ],
                       "correct_answer": "A. People stay away",
                       "explanation": "The notes state that a noisy or dirty business environment makes people stay away.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_02_q6.mp3"
+                      "audio_path": "assets/audio/questions/p1_management_02_q6.mp3"
                     },
                     {
                       "id": "p1_management_02_q7",
@@ -567,7 +550,7 @@
                       ],
                       "correct_answer": "A. It helps people get things they need every day",
                       "explanation": "Business environments are important because they help people buy everyday necessities like food and supplies.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_02_q7.mp3"
+                      "audio_path": "assets/audio/questions/p1_management_02_q7.mp3"
                     },
                     {
                       "id": "p1_management_02_q8",
@@ -581,7 +564,7 @@
                       ],
                       "correct_answer": "A. Buyers",
                       "explanation": "Buyers are the customers who purchase goods from sellers in a business environment.",
-                      "audio_path": "assets\\audio\\questions\\p1_management_02_q8.mp3"
+                      "audio_path": "assets/audio/questions/p1_management_02_q8.mp3"
                     }
                   ],
                   "challenge": {
@@ -599,35 +582,35 @@
           "class_id": "p2",
           "title": "Primary 2",
           "subtitle": "Lower Primary",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "p3",
           "title": "Primary 3",
           "subtitle": "Lower Primary",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "p4",
           "title": "Primary 4",
           "subtitle": "Upper Primary",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "p5",
           "title": "Primary 5",
           "subtitle": "Upper Primary",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "p6",
           "title": "Primary 6",
           "subtitle": "Upper Primary",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         }
       ]
@@ -647,7 +630,7 @@
           "class_id": "jss1",
           "title": "JSS 1 (Grade 7)",
           "subtitle": "Junior Secondary",
-          "version": "1.0.2",
+          "version": "1.0.1",
           "subjects": [
             {
               "subject_id": "jss1_subject_01",
@@ -659,199 +642,199 @@
                   "topic_id": "jss1_subject_01_01",
                   "title": "1. Introduction To Computer Science",
                   "subtitle": "Understanding the Foundation",
-                  "notes": "# Introduction To Computer Science\n## Subtitle: Understanding the Foundation\n\n### Definition and Core Concept\n- Computer Science: The study of computers and computational systems, including their hardware, software, and practical applications.\n- Data: Unprocessed raw facts, figures, or symbols.\n- Information: Processed data that has meaning and is useful to humans.\n- Computer: An electronic device that accepts data as input, processes the data, stores it, and produces meaningful information as output.\n\n### Key Features and Characteristics of Computers\n- Speed: Computers can perform millions of calculations per second.\n- Accuracy: Computers perform tasks without making errors if the input data and instructions are correct.\n- Storage: Computers can store large amounts of data and information for future use.\n- Diligence: Computers can work continuously for long hours without getting tired or bored.\n- Versatility: Computers can perform a wide variety of tasks ranging from simple math to complex simulations.\n\n### Importance and Practical Applications\n- Education: Used for online learning, research, and keeping student records.\n- Banking: Used for managing bank accounts, online money transfers, and operating Automated Teller Machines (ATMs).\n- Healthcare: Used for diagnosing diseases, maintaining patient records, and monitoring health.\n- Communication: Used for sending emails, instant messaging, and video conferencing.\n\n### Advantages and Disadvantages\n- Advantages:\n  - Increases speed and efficiency in processing work.\n  - Helps to store massive amounts of data safely.\n  - Enhances global communication and connectivity.\n- Disadvantages:\n  - High cost of purchasing and maintaining equipment.\n  - Can lead to job losses due to automation.\n  - Risk of cybercrime and data theft.\n\n### Lessons Learnt and Takeaway Summary\n- Computer Science forms the foundation for understanding modern technology.\n- A computer relies on data input to process and output useful information.\n- Computers are fast, accurate, and versatile, but they must be used responsibly to avoid negative consequences.",
-                  "teacher_explanation": "Hello students! Welcome to our first lesson in Computer Science. Today, we are exploring the foundation of this wonderful subject.\n\nLet us start with the core definitions.\n\nNotes say: Computer Science: The study of computers and computational systems, including their hardware, software, and practical applications.\nExplanation: Think of Computer Science as learning the language and rules behind how smart electronic machines work and help us solve everyday problems.\n\nNotes say: Data: Unprocessed raw facts, figures, or symbols.\nExplanation: Imagine a list of numbers like 12, 15, and 10 written on a scrap piece of paper. On their own, they do not tell us much because they are just raw data.\n\nNotes say: Information: Processed data that has meaning and is useful to humans.\nExplanation: If I tell you that 12, 15, and 10 are the test scores of students in our class, that raw data now becomes useful information!\n\nNotes say: Computer: An electronic device that accepts data as input, processes the data, stores it, and produces meaningful information as output.\nExplanation: Just like a blender takes raw fruit as input, blends it, and outputs delicious smooth juice, a computer takes raw data, works on it, and gives us clear results.\n\nNow, let us look at the characteristics of computers.\n\nNotes say: Speed: Computers can perform millions of calculations per second.\nExplanation: If I asked you to multiply 4,582 by 9,321, it might take a few minutes with pencil and paper. A computer does that in a tiny fraction of a second!\n\nNotes say: Accuracy: Computers perform tasks without making errors if the input data and instructions are correct.\nExplanation: As long as you press the right buttons, a calculator will never give you the wrong answer to a math problem.\n\nNotes say: Storage: Computers can store large amounts of data and information for future use.\nExplanation: Instead of filling a whole room with paper files, a single small computer memory drive can hold thousands of books.\n\nNotes say: Diligence: Computers can work continuously for long hours without getting tired or bored.\nExplanation: Humans get sleepy after working for hours, but a computer can stay turned on and keep working all day and night without complaining.\n\nNotes say: Versatility: Computers can perform a wide variety of tasks ranging from simple math to complex simulations.\nExplanation: You can use the same computer to play music, design a building, write an essay, or talk to a friend far away.\n\nNext, let us look at where computers are used in society.\n\nNotes say: Education: Used for online learning, research, and keeping student records.\nExplanation: When you look up facts on the internet for your homework or check your report card online, computer science is at work.\n\nNotes say: Banking: Used for managing bank accounts, online money transfers, and operating Automated Teller Machines (ATMs).\nExplanation: When your parents withdraw money from an ATM without entering the bank building, a computer system manages that transaction safely.\n\nNotes say: Healthcare: Used for diagnosing diseases, maintaining patient records, and monitoring health.\nExplanation: In hospitals, doctors use computerized heart monitors to keep track of a patient's heartbeat.\n\nNotes say: Communication: Used for sending emails, instant messaging, and video conferencing.\nExplanation: Apps on smartphones that let you send messages or make video calls to family in another city use computer systems.\n\nLet us consider the advantages and disadvantages.\n\nNotes say: Advantages: Increases speed and efficiency in processing work. Helps to store massive amounts of data safely. Enhances global communication and connectivity.\nExplanation: Computers allow us to complete tasks that used to take days in just a few minutes, while letting us stay in touch with people worldwide.\n\nNotes say: Disadvantages: High cost of purchasing and maintaining equipment. Can lead to job losses due to automation. Risk of cybercrime and data theft.\nExplanation: Computers can be expensive to buy, and sometimes machines replace human workers. Also, bad people known as hackers might try to steal information online.\n\nFinally, here is our summary.\n\nNotes say: Computer Science forms the foundation for understanding modern technology. A computer relies on data input to process and output useful information. Computers are fast, accurate, and versatile, but they must be used responsibly to avoid negative consequences.\nExplanation: Always remember that a computer is a powerful tool. Knowing how it works helps you use technology safely and effectively to build a great future!",
+                  "notes": "DEFINITION AND CORE CONCEPT\nA computer is an electronic device that accepts raw data as input, processes it according to stored instructions, produces meaningful information as output, and stores it for future use. Computer science is the study of computers and algorithmic processes, including their principles, hardware and software designs, applications, and their impact on society. Data refers to raw facts, figures, or unorganized symbols that have no clear meaning on their own. Information refers to processed data that is organized, meaningful, and useful to the user.\n\nKEY FEATURES AND CHARACTERISTICS OF COMPUTERS\nSpeed: Computers can perform millions of calculations within a fraction of a second.\nAccuracy: Computers give correct results if the input data and instructions provided are accurate.\nDiligence: Computers can work continuously for long hours without getting tired or bored.\nVersatility: Computers can perform a wide variety of tasks ranging from basic math to complex graphics design.\nStorage Capacity: Computers can store vast amounts of data and information in memory devices for long-term access.\n\nIMPORTANCE AND PRACTICAL APPLICATIONS\nEducation: Used by teachers and students for teaching, learning, online research, and record management.\nHealthcare: Used in hospitals to diagnose diseases, keep patient records, and monitor vital signs.\nBanking and Finance: Used to manage customer accounts, process electronic money transfers, and operate automated teller machines.\nCommunication: Enables fast global interaction through emails, messaging apps, and video calls.\nBusiness and Industry: Used for managing stock inventory, calculating payroll, and marketing products online.\n\nADVANTAGES AND DISADVANTAGES OF COMPUTERS\nAdvantage 1: High speed processing allows complex tasks to be completed in seconds.\nAdvantage 2: Large storage capacity enables safe keeping of huge volumes of documents.\nAdvantage 3: Automation reduces human errors and saves time on repetitive tasks.\nDisadvantage 1: High cost of purchase and maintenance can make them expensive for some people.\nDisadvantage 2: Health risks such as eye strain and bad posture can result from prolonged use.\nDisadvantage 3: Unemployment can occur when machines replace human workers in automated jobs.\n\nLESSONS LEARNT AND TAKEAWAY SUMMARY\nSummary Point 1: A computer is an electronic device that converts raw data into useful information through input, processing, output, and storage.\nSummary Point 2: Computer science covers the study of computer designs, systems, software, and their real-world applications.\nSummary Point 3: Computers possess characteristics like speed, accuracy, diligence, versatility, and high storage capacity.\nSummary Point 4: Computers are widely used across education, medicine, banking, communication, and business.",
+                  "teacher_explanation": "Welcome class! Let us explore the foundation of computer science together.\n\nDEFINITION AND CORE CONCEPT.\nA computer is an electronic device that accepts raw data as input, processes it according to stored instructions, produces meaningful information as output, and stores it for future use. Think of making a fruit smoothie. The raw fruits you put into the blender are like raw data, the blending action is processing, and the delicious smoothie poured into a glass is your output information!\n\nComputer science is the study of computers and algorithmic processes, including their principles, hardware and software designs, applications, and their impact on society. This field is not just about typing on a keyboard; it is about understanding how these smart devices solve everyday human problems.\n\nData refers to raw facts, figures, or unorganized symbols that have no clear meaning on their own. For example, if I write numbers like 12, 05, and 2010 on a board without context, you will not know what they represent.\n\nInformation refers to processed data that is organized, meaningful, and useful to the user. When we arrange those numbers to say Date of Birth: 12th May 2010, it instantly becomes meaningful information!\n\nKEY FEATURES AND CHARACTERISTICS OF COMPUTERS.\nSpeed: Computers can perform millions of calculations within a fraction of a second. While a person might take ten minutes to sum up hundreds of numbers, a computer finishes it in less than a heartbeat!\n\nAccuracy: Computers give correct results if the input data and instructions provided are accurate. As long as you feed in the correct facts, the computer will never give you a wrong answer.\n\nDiligence: Computers can work continuously for long hours without getting tired or bored. Unlike us humans who need to rest, eat, and sleep, a computer can work all through the night without losing energy!\n\nVersatility: Computers can perform a wide variety of tasks ranging from basic math to complex graphics design. You can use the exact same machine to play music, calculate numbers, type an essay, or draw artwork!\n\nStorage Capacity: Computers can store vast amounts of data and information in memory devices for long-term access. Imagine fitting an entire library of thousands of books into a tiny memory drive in your pocket!\n\nIMPORTANCE AND PRACTICAL APPLICATIONS.\nEducation: Used by teachers and students for teaching, learning, online research, and record management. You can search for lesson topics online or use software to practice quizzes!\n\nHealthcare: Used in hospitals to diagnose diseases, keep patient records, and monitor vital signs. Doctors count on medical computers to track heartbeats during critical operations!\n\nBanking and Finance: Used to manage customer accounts, process electronic money transfers, and operate automated teller machines. When your parents withdraw cash at an ATM, a computer processes that account balance right away!\n\nCommunication: Enables fast global interaction through emails, messaging apps, and video calls. You can chat face-to-face with a relative who lives far away in a different country using video calls!\n\nBusiness and Industry: Used for managing stock inventory, calculating payroll, and marketing products online. Supermarkets rely on computers to scan product codes and print out receipt bills quickly!\n\nADVANTAGES AND DISADVANTAGES OF COMPUTERS.\nAdvantage 1: High speed processing allows complex tasks to be completed in seconds. This saves us immense time when working on large projects.\n\nAdvantage 2: Large storage capacity enables safe keeping of huge volumes of documents. Instead of storing roomfuls of dusty paper files, everything stays clean and organized in digital folders.\n\nAdvantage 3: Automation reduces human errors and saves time on repetitive tasks. Tasks like sending weekly emails can happen automatically without typing them out one by one.\n\nDisadvantage 1: High cost of purchase and maintenance can make them expensive for some people. Buying computer hardware and replacing broken parts requires money.\n\nDisadvantage 2: Health risks such as eye strain and bad posture can result from prolonged use. Sitting in front of a computer screen for many hours without a break can strain your eyes and hurt your back!\n\nDisadvantage 3: Unemployment can occur when machines replace human workers in automated jobs. When a factory installs automated robots, fewer human workers may be needed.\n\nLESSONS LEARNT AND TAKEAWAY SUMMARY.\nSummary Point 1: A computer is an electronic device that converts raw data into useful information through input, processing, output, and storage. Always keep these four vital steps in mind!\n\nSummary Point 2: Computer science covers the study of computer designs, systems, software, and their real-world applications. It gives us the tools to build modern technologies.\n\nSummary Point 3: Computers possess characteristics like speed, accuracy, diligence, versatility, and high storage capacity. These features make them essential tools in modern life.\n\nSummary Point 4: Computers are widely used across education, medicine, banking, communication, and business. Learning computer science builds a strong foundation for your future career!",
                   "animation_video_concept": "",
-                  "video_path": "assets/videos/jss1_topic1.mp4",
+                  "video_path": "assets/videos/jss1_intro_computer_science.mp4",
                   "diagram": "",
-                  "audio_path": "assets/audio/jss1_subject_01_01_notes.mp3",
+                  "audio_path": "",
                   "quiz": [
                     {
                       "id": "jss1_subject_01_01_q1",
                       "type": "mcq",
-                      "question": "What is defined as unprocessed raw facts, figures, or symbols?",
+                      "question": "What is a computer?",
                       "options": [
-                        "A. Information",
-                        "B. Data",
-                        "C. Software",
-                        "D. Hardware"
+                        "A. An electronic device that accepts raw data, processes it, produces output, and stores it",
+                        "B. A mechanical tool used only for typing letters and printing documents",
+                        "C. A television screen that plays educational videos without user input",
+                        "D. A manual calculating frame used for counting basic numbers"
                       ],
-                      "correct_answer": "B. Data",
-                      "explanation": "According to the notes, Data is defined as unprocessed raw facts, figures, or symbols.",
+                      "correct_answer": "A. An electronic device that accepts raw data, processes it, produces output, and stores it",
+                      "explanation": "According to the lesson notes, a computer is an electronic device that accepts raw data as input, processes it, produces output, and stores it for future use.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q1.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q2",
                       "type": "mcq",
-                      "question": "Which characteristic describes a computer's ability to work continuously without getting tired or bored?",
+                      "question": "Which characteristic describes a computer's ability to work continuously for long hours without getting tired?",
                       "options": [
-                        "A. Diligence",
-                        "B. Speed",
+                        "A. Speed",
+                        "B. Diligence",
                         "C. Versatility",
                         "D. Accuracy"
                       ],
-                      "correct_answer": "A. Diligence",
-                      "explanation": "Diligence means that computers can work continuously for long hours without getting tired or bored.",
+                      "correct_answer": "B. Diligence",
+                      "explanation": "Diligence means computers can work continuously for long hours without getting tired or bored.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q2.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q3",
                       "type": "mcq",
-                      "question": "How are computers practically applied in the field of education?",
+                      "question": "Unorganized facts, figures, or symbols that have no clear meaning on their own are known as what?",
                       "options": [
-                        "A. Operating Automated Teller Machines",
-                        "B. Diagnosing medical diseases",
-                        "C. Online learning, research, and keeping student records",
-                        "D. Manufacturing heavy car parts"
+                        "A. Information",
+                        "B. Output",
+                        "C. Data",
+                        "D. Software"
                       ],
-                      "correct_answer": "C. Online learning, research, and keeping student records",
-                      "explanation": "The notes state that in education, computers are used for online learning, research, and keeping student records.",
+                      "correct_answer": "C. Data",
+                      "explanation": "Data refers to raw facts, figures, or unorganized symbols that have no clear meaning on their own.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q3.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q4",
                       "type": "mcq",
-                      "question": "Which of the following is listed as a disadvantage of using computers?",
+                      "question": "A hospital uses computers to monitor patient vital signs and keep medical records. Which application area is this?",
                       "options": [
-                        "A. Enhances global communication",
-                        "B. Risk of cybercrime and data theft",
-                        "C. High processing speed",
-                        "D. Large storage capacity"
+                        "A. Education",
+                        "B. Healthcare",
+                        "C. Banking and Finance",
+                        "D. Communication"
                       ],
-                      "correct_answer": "B. Risk of cybercrime and data theft",
-                      "explanation": "Risk of cybercrime and data theft is explicitly listed as a disadvantage in the notes.",
+                      "correct_answer": "B. Healthcare",
+                      "explanation": "Using computers to monitor patient records and vital signs falls under Healthcare.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q4.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q5",
                       "type": "mcq",
-                      "question": "What primary function makes a computer an electronic device according to its core definition?",
+                      "question": "Which of the following is listed as a disadvantage of using computers?",
                       "options": [
-                        "A. It cooks food automatically",
-                        "B. It accepts data as input, processes it, stores it, and produces information as output",
-                        "C. It generates physical paper without electricity",
-                        "D. It works only when connected to a telephone line"
+                        "A. High storage capacity",
+                        "B. Automation of repetitive tasks",
+                        "C. Health risks such as eye strain",
+                        "D. High speed processing"
                       ],
-                      "correct_answer": "B. It accepts data as input, processes it, stores it, and produces information as output",
-                      "explanation": "A computer is an electronic device that accepts data as input, processes the data, stores it, and produces meaningful information as output.",
+                      "correct_answer": "C. Health risks such as eye strain",
+                      "explanation": "Health risks such as eye strain and bad posture result from prolonged computer use and are listed as disadvantages.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q5.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q6",
                       "type": "fill_blank",
-                      "question": "____ is defined as unprocessed raw facts, figures, or symbols.",
-                      "correct_answer": "Data",
-                      "explanation": "Data: Unprocessed raw facts, figures, or symbols.",
+                      "question": "Data refers to raw facts, figures, or unorganized symbols that have no clear ________ on their own.",
+                      "correct_answer": "meaning",
+                      "explanation": "Exact text from notes: Data refers to raw facts, figures, or unorganized symbols that have no clear meaning on their own.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q6.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q7",
                       "type": "fill_blank",
-                      "question": "____ is processed data that has meaning and is useful to humans.",
-                      "correct_answer": "Information",
-                      "explanation": "Information: Processed data that has meaning and is useful to humans.",
+                      "question": "Computers give correct results if the input data and instructions provided are ________.",
+                      "correct_answer": "accurate",
+                      "explanation": "Exact text from notes: Computers give correct results if the input data and instructions provided are accurate.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q7.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q8",
                       "type": "fill_blank",
-                      "question": "Computers can perform millions of calculations per ____.",
-                      "correct_answer": "second",
-                      "explanation": "Speed: Computers can perform millions of calculations per second.",
+                      "question": "________ refers to processed data that is organized, meaningful, and useful to the user.",
+                      "correct_answer": "Information",
+                      "explanation": "Exact text from notes: Information refers to processed data that is organized, meaningful, and useful to the user.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q8.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q9",
                       "type": "fill_blank",
-                      "question": "Computers can work continuously for long hours without getting tired or ____.",
-                      "correct_answer": "bored",
-                      "explanation": "Diligence: Computers can work continuously for long hours without getting tired or bored.",
+                      "question": "High cost of purchase and ________ can make them expensive for some people.",
+                      "correct_answer": "maintenance",
+                      "explanation": "Exact text from notes: High cost of purchase and maintenance can make them expensive for some people.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q9.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q10",
                       "type": "fill_blank",
-                      "question": "Computer Science is the study of computers and ____ systems.",
-                      "correct_answer": "computational",
-                      "explanation": "Computer Science: The study of computers and computational systems, including their hardware, software, and practical applications.",
+                      "question": "Computers can perform a wide variety of tasks ranging from basic math to complex ________ design.",
+                      "correct_answer": "graphics",
+                      "explanation": "Exact text from notes: Computers can perform a wide variety of tasks ranging from basic math to complex graphics design.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q10.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q11",
                       "type": "theory",
-                      "question": "What is data?",
-                      "correct_answer": "Unprocessed raw facts, figures, or symbols.",
-                      "explanation": "Data: Unprocessed raw facts, figures, or symbols.",
+                      "question": "What is processed data that is organized, meaningful, and useful to the user called?",
+                      "correct_answer": "Information",
+                      "explanation": "Information refers to processed data that is organized, meaningful, and useful to the user.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q11.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q12",
                       "type": "theory",
-                      "question": "What is information?",
-                      "correct_answer": "Processed data that has meaning and is useful to humans.",
-                      "explanation": "Information: Processed data that has meaning and is useful to humans.",
+                      "question": "Name the characteristic of computers that allows them to perform a wide variety of tasks.",
+                      "correct_answer": "Versatility",
+                      "explanation": "Versatility: Computers can perform a wide variety of tasks ranging from basic math to complex graphics design.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q12.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q13",
                       "type": "theory",
-                      "question": "Which computer feature allows it to work continuously without getting tired or bored?",
-                      "correct_answer": "Diligence",
-                      "explanation": "Diligence: Computers can work continuously for long hours without getting tired or bored.",
+                      "question": "What does a computer accept as input?",
+                      "correct_answer": "Raw data",
+                      "explanation": "A computer is an electronic device that accepts raw data as input.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q13.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q14",
                       "type": "theory",
-                      "question": "Which characteristic of a computer describes its ability to carry out millions of calculations per second?",
+                      "question": "Which characteristic describes a computer's ability to perform millions of calculations within a fraction of a second?",
                       "correct_answer": "Speed",
-                      "explanation": "Speed: Computers can perform millions of calculations per second.",
+                      "explanation": "Speed: Computers can perform millions of calculations within a fraction of a second.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q14.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q15",
                       "type": "theory",
-                      "question": "State one major security-related disadvantage of using computers.",
-                      "correct_answer": "Risk of cybercrime and data theft.",
-                      "explanation": "Disadvantages: Risk of cybercrime and data theft.",
+                      "question": "Name one health risk that can result from prolonged computer use.",
+                      "correct_answer": "Eye strain",
+                      "explanation": "Health risks such as eye strain and bad posture can result from prolonged use.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q15.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q16",
                       "type": "identify_image",
                       "image_path": "assets/images/quiz/jss1_q16.png",
-                      "question": "Identify the primary function of the computing input device shown in the image.",
+                      "question": "Which computer stage is represented by the physical hardware device shown in this picture?",
                       "options": [
-                        "A. To enter text and numbers into the computer",
-                        "B. To print documents on paper",
-                        "C. To output sound and music",
-                        "D. To cool down the computer processor"
+                        "A. Input device",
+                        "B. Output device",
+                        "C. Storage device",
+                        "D. Processing unit"
                       ],
-                      "correct_answer": "A. To enter text and numbers into the computer",
-                      "explanation": "A keyboard is used as an input device to enter raw data such as text and numbers into the computer system.",
+                      "correct_answer": "A. Input device",
+                      "explanation": "Devices like keyboards and mice are input devices used to enter raw data into a computer.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q16.mp3"
                     },
                     {
                       "id": "jss1_subject_01_01_q17",
                       "type": "identify_image",
                       "image_path": "assets/images/quiz/jss1_q17.png",
-                      "question": "Which practical application field of computer science is represented by the machine depicted in the image?",
+                      "question": "Which characteristic of a computer is demonstrated by the storage hardware unit in this image?",
                       "options": [
-                        "A. Education",
-                        "B. Healthcare",
-                        "C. Banking",
-                        "D. Agriculture"
+                        "A. Diligence",
+                        "B. Versatility",
+                        "C. Storage Capacity",
+                        "D. Accuracy"
                       ],
-                      "correct_answer": "C. Banking",
-                      "explanation": "Automated Teller Machines (ATMs) represent practical computer applications in the field of banking.",
+                      "correct_answer": "C. Storage Capacity",
+                      "explanation": "Digital memory components like hard drives demonstrate the high storage capacity feature of computers.",
                       "audio_path": "assets/audio/questions/jss1_subject_01_01_q17.mp3"
                     }
                   ],
                   "challenge": {
                     "title": "Home Assignment & Practical Challenge",
-                    "instructions": "Observe three different electronic devices or machines around your home or community. Think about how these devices operate like simple processing systems.",
-                    "task_question": "List three distinct electronic devices found in your home or community. For each device, state what raw input it takes from the user and what practical result or output it gives back.",
-                    "parent_grading_guide": "Check that the student has named three real electronic devices. Verify that for each device, the student correctly identified a logical input provided to the device and a clear output produced by it. Grade out of 10 based on completeness, clarity, and thoughtful observation."
+                    "instructions": "Take a short walk around your home, neighborhood, or community with a notepad. Observe three different locations where electronic or computing devices are actively used by people.",
+                    "task_question": "List three distinct locations in your community where computing or digital devices are used. For each location, write down the device you observed, describe the job it performs, and explain how it helps the people working or living there.",
+                    "parent_grading_guide": "Please evaluate your child's assignment using the following criteria: 1. Did the student list three distinct, real-world places in your community? 2. Is a specific electronic or computing device identified for each location? 3. Did the student explain what the device does and why it is useful? Score the work out of 10 points based on completeness, observational accuracy, and neatness."
                   }
                 }
               ]
@@ -862,14 +845,14 @@
           "class_id": "jss2",
           "title": "JSS 2 (Grade 8)",
           "subtitle": "Junior Secondary",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "jss3",
           "title": "JSS 3 (Grade 9)",
           "subtitle": "Junior Secondary",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         }
       ]
@@ -901,129 +884,129 @@
                   "topic_id": "ss1_acc_01",
                   "title": "1. INTRODUCTION TO FINANCIAL ACCOUNTING",
                   "subtitle": "Principles & Double Entry Rules",
-                  "notes": "Definition & Core Concept\n* Financial accounting is the process of identifying, measuring, recording, classifying, summarizing, and communicating financial information to enable users to make informed decisions.\n* Assets: Assets are resources owned and controlled by a business entity as a result of past events, from which future economic benefits are expected to flow to the business.\n* Liabilities: Liabilities are present obligations of a business arising from past events, the settlement of which is expected to result in an outflow of economic resources.\n* Capital: Capital represents the owner's financial interest or investment in the business entity.\n* Double-Entry Rule: The Golden Rule of Double Entry states: Debit the receiver, Credit the giver. Every financial transaction affects at least two accounts, with total debit entries equal to total credit entries.\n\nKey Features / Characteristics\n* Dual Aspect Concept: Every transaction has a two-fold effect, requiring equal debit and credit entries.\n* Systematic Recording: Financial data is recorded chronologically in books of prime entry and accounts.\n* Historical Cost Concept: Assets are recorded in the accounting books at their original acquisition cost.\n* Entity Concept: The business entity is legally and practically separate from its owners.\n\nImportance & Practical Applications\n* Provides Financial Reports: It helps determine the profit or loss made by a business during a specific period.\n* Facilitates Planning and Control: Helps managers budget resources effectively and prevent fraudulent activities.\n* Helps External Users: Provides reliable information to investors, banks, suppliers, and tax authorities.\n\nAdvantages & Disadvantages\n* Advantages:\n  - Ensures accurate tracking of money and business performance.\n  - Helps businesses secure bank loans by presenting accurate financial records.\n  - Prevents financial fraud and minimizes accounting errors.\n* Disadvantages:\n  - Ignores non-monetary items like staff morale or market reputation.\n  - Influenced by historical cost, which may not reflect current market values.\n\nLessons Learnt / Takeaway Summary\n* Accounting is the language of business used to communicate financial health.\n* Assets are business resources, liabilities are debts, and capital is the owner's investment.\n* The fundamental rule of double entry bookkeeping is to debit the receiver and credit the giver.",
-                  "teacher_explanation": "Welcome to our first lesson on Financial Accounting! Let us break down the concepts together.\n\nDefinition & Core Concept. Financial accounting is the process of identifying, measuring, recording, classifying, summarizing, and communicating financial information to enable users to make informed decisions. Imagine a school tuck shop keeping a detailed notebook of every drink sold and every snack bought so the owner knows exactly how much money was made at the end of the term.\n\nAssets: Assets are resources owned and controlled by a business entity as a result of past events, from which future economic benefits are expected to flow to the business. For example, the delivery van owned by a bakery is an asset because it helps deliver bread and generate cash.\n\nLiabilities: Liabilities are present obligations of a business arising from past events, the settlement of which is expected to result in an outflow of economic resources. Think of this as money the bakery owes to the flour supplier after buying goods on credit.\n\nCapital: Capital represents the owner's financial interest or investment in the business entity. This is like the money you took out of your personal savings to start selling phone accessories.\n\nDouble-Entry Rule: The Golden Rule of Double Entry states: Debit the receiver, Credit the giver. Every financial transaction affects at least two accounts, with total debit entries equal to total credit entries. If you pay cash to buy a textbook, your cash account gives away money, while your book account receives value.\n\nKey Features / Characteristics. Dual Aspect Concept: Every transaction has a two-fold effect, requiring equal debit and credit entries. Systematic Recording: Financial data is recorded chronologically in books of prime entry and accounts. Historical Cost Concept: Assets are recorded in the accounting books at their original acquisition cost. Entity Concept: The business entity is legally and practically separate from its owners. This means if you own a shop, you must not mix your personal family food expenses with the shop's money.\n\nImportance & Practical Applications. Provides Financial Reports: It helps determine the profit or loss made by a business during a specific period. Facilitates Planning and Control: Helps managers budget resources effectively and prevent fraudulent activities. Helps External Users: Provides reliable information to investors, banks, suppliers, and tax authorities. When a company applies for a loan, the bank looks at these accounting records to decide whether to lend the money.\n\nAdvantages & Disadvantages. Advantages: Ensures accurate tracking of money and business performance. Helps businesses secure bank loans by presenting accurate financial records. Prevents financial fraud and minimizes accounting errors. Disadvantages: Ignores non-monetary items like staff morale or market reputation. Influenced by historical cost, which may not reflect current market values.\n\nLessons Learnt / Takeaway Summary. Accounting is the language of business used to communicate financial health. Assets are business resources, liabilities are debts, and capital is the owner's investment. The fundamental rule of double entry bookkeeping is to debit the receiver and credit the giver.",
+                  "notes": "DEFINITION AND CORE CONCEPT\nFinancial accounting is the art of recording, classifying, summarizing, and interpreting financial transactions of a business organization to enable users to make informed decisions.\nAssets are economic resources owned and controlled by a business entity that are expected to produce future economic benefits.\nLiabilities are financial debts or obligations owed by a business to external parties resulting from past transactions.\nThe double-entry bookkeeping rule states that for every debit entry, there must be a corresponding credit entry, and vice versa. Debit the receiver and credit the giver.\n\nKEY FEATURES AND CHARACTERISTICS\n- Historical Nature: It records past financial transactions that have already occurred.\n- Double-Entry System: Every transaction affects at least two accounts, maintaining equilibrium between debit and credit sides.\n- Standardization: It follows universally accepted accounting principles and standards like GAAP and IFRS.\n- Monetary Unit: Only transactions that can be expressed in monetary terms are recorded in the books.\n- Classifications of Items: Clear distinction is made between assets, liabilities, capital, income, and expenses.\n\nIMPORTANCE AND PRACTICAL APPLICATIONS\n- Business Decision Making: Helps business owners evaluate performance and plan future operations.\n- Stewardship and Accountability: Shows how efficiently management uses resources provided by shareholders or owners.\n- Compliance and Taxation: Assists businesses in calculating accurate tax liabilities for government authorities.\n- Credit Evaluation: Provides banks and suppliers with information to assess creditworthiness before granting loans or trading credit.\n\nADVANTAGES AND DISADVANTAGES\nADVANTAGES:\n- Provides a systematic record of financial transactions.\n- Helps prevent fraud through systematic double-entry cross-checks.\n- Facilitates comparison of financial results over different accounting periods.\n\nDISADVANTAGES:\n- Ignores non-monetary items like employee skill, staff morale, and management efficiency.\n- Records transactions at historical cost, ignoring the effects of inflation.\n- Can be susceptible to manipulation through window dressing by dishonest management.\n\nLESSONS LEARNT AND TAKEAWAY SUMMARY\n- Financial accounting provides a structured system for tracking money and business resources.\n- Assets represent what a business owns, while liabilities represent what a business owes.\n- The Golden Rule of double-entry is: Debit the receiving account, Credit the giving account.\n- Balance equality must always be maintained according to the accounting equation: Assets equals Liabilities plus Capital.",
+                  "teacher_explanation": "Hello students! Welcome to our lesson on Introduction to Financial Accounting. Let us break down everything step-by-step.\n\nFirst, under DEFINITION AND CORE CONCEPT:\nFinancial accounting is the art of recording, classifying, summarizing, and interpreting financial transactions of a business organization to enable users to make informed decisions.\nThink of financial accounting like keeping a detailed diary of every Naira that enters or leaves a business, so the owner knows whether they are making a profit or a loss.\n\nAssets are economic resources owned and controlled by a business entity that are expected to produce future economic benefits.\nFor example, if a bakery buys a delivery van or an industrial oven, those items are assets because they help the bakery generate income.\n\nLiabilities are financial debts or obligations owed by a business to external parties resulting from past transactions.\nImagine taking flour on credit from a supplier to pay later; that unpaid bill is a liability because you owe that money to someone outside your business.\n\nThe double-entry bookkeeping rule states that for every debit entry, there must be a corresponding credit entry, and vice versa. Debit the receiver and credit the giver.\nThis means every financial transaction has two sides. If you buy a book with cash, your book account receives value and is debited, while your cash account gives out value and is credited.\n\nNow let us look at KEY FEATURES AND CHARACTERISTICS:\n- Historical Nature: It records past financial transactions that have already occurred.\nThis means accountants only write down events that have actually happened and can be proven with receipts or invoices, not guesses about tomorrow.\n\n- Double-Entry System: Every transaction affects at least two accounts, maintaining equilibrium between debit and credit sides.\nJust like a balanced scale, whatever goes onto the left side must equal whatever goes onto the right side.\n\n- Standardization: It follows universally accepted accounting principles and standards like GAAP and IFRS.\nThis ensures that an accounting statement prepared in Lagos can be understood and accepted by investors in London or Tokyo.\n\n- Monetary Unit: Only transactions that can be expressed in monetary terms are recorded in the books.\nIf a manager is very kind, that is wonderful, but since we cannot put a Naira value on kindness, it does not enter the accounting books.\n\n- Classifications of Items: Clear distinction is made between assets, liabilities, capital, income, and expenses.\nSorting transactions neatly ensures we do not confuse money spent on stock with money owed to lenders.\n\nNext, let us discuss IMPORTANCE AND PRACTICAL APPLICATIONS:\n- Business Decision Making: Helps business owners evaluate performance and plan future operations.\nWhen shop owners see their monthly statements, they can easily decide whether to expand or cut back expenses.\n\n- Stewardship and Accountability: Shows how efficiently management uses resources provided by shareholders or owners.\nIt proves to investors that their money is being used wisely and honestly.\n\n- Compliance and Taxation: Assists businesses in calculating accurate tax liabilities for government authorities.\nIt prevents companies from paying too much tax or getting penalized for paying too little.\n\n- Credit Evaluation: Provides banks and suppliers with information to assess creditworthiness before granting loans or trading credit.\nWhen you apply for a bank loan for your business, the bank will request your accounting records to confirm you can repay.\n\nNow, let us examine ADVANTAGES AND DISADVANTAGES:\nADVANTAGES:\n- Provides a systematic record of financial transactions.\nInstead of relying on memory, every single transaction is safely documented.\n\n- Helps prevent fraud through systematic double-entry cross-checks.\nBecause every debit must match a credit, missing funds or dishonest entries are quickly caught.\n\n- Facilitates comparison of financial results over different accounting periods.\nYou can compare your performance in 2023 with 2024 to see if your business is growing.\n\nDISADVANTAGES:\n- Ignores non-monetary items like employee skill, staff morale, and management efficiency.\nA highly skilled workforce is a huge advantage, but accounting books cannot measure or display it.\n\n- Records transactions at historical cost, ignoring the effects of inflation.\nAn office building bought twenty years ago for two million Naira remains recorded at that price, even if it is worth fifty million today.\n\n- Can be susceptible to manipulation through window dressing by dishonest management.\nSometimes unscrupulous managers alter figures to make a struggling company appear highly profitable.\n\nFinally, let us review LESSONS LEARNT AND TAKEAWAY SUMMARY:\n- Financial accounting provides a structured system for tracking money and business resources.\nIt is the universal language of business that keeps everything organized.\n\n- Assets represent what a business owns, while liabilities represent what a business owes.\nAlways remember: assets bring money in, liabilities take money out.\n\n- The Golden Rule of double-entry is: Debit the receiving account, Credit the giving account.\nWhenever value enters an account, debit it; whenever value leaves, credit it.\n\n- Balance equality must always be maintained according to the accounting equation: Assets equals Liabilities plus Capital.\nThis foundational equation ensures that the total value of resources equals the total claims against them.",
                   "animation_video_concept": "",
-                  "video_path": "assets/videos/ss1_financial_accounting_intro.mp4",
+                  "video_path": "assets/videos/ss1_accounting_intro.mp4",
                   "diagram": "",
-                  "audio_path": "assets\\audio\\ss1_acc_01_notes.mp3",
+                  "audio_path": "assets/audio/ss1_acc_01_notes.mp3",
                   "quiz": [
                     {
                       "id": "ss1_acc_01_q1",
-                      "type": "fill_blank",
-                      "question": "Financial accounting is the process of identifying, measuring, recording, classifying, summarizing, and communicating _______ information to enable users to make informed decisions.",
-                      "correct_answer": "financial",
-                      "explanation": "Financial accounting is the process of identifying, measuring, recording, classifying, summarizing, and communicating financial information to enable users to make informed decisions.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q1.mp3"
+                      "type": "mcq",
+                      "question": "Which of the following describes economic resources owned and controlled by a business that yield future benefits?",
+                      "options": [
+                        "A. Liabilities",
+                        "B. Assets",
+                        "C. Expenses",
+                        "D. Capital"
+                      ],
+                      "correct_answer": "B. Assets",
+                      "explanation": "According to the lesson notes, assets are economic resources owned and controlled by a business entity that are expected to produce future economic benefits.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q1.mp3"
                     },
                     {
                       "id": "ss1_acc_01_q2",
-                      "type": "fill_blank",
-                      "question": "The Golden Rule of Double Entry states: Debit the receiver, Credit the _______.",
-                      "correct_answer": "giver",
-                      "explanation": "The Golden Rule of Double Entry states: Debit the receiver, Credit the giver.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q2.mp3"
+                      "type": "mcq",
+                      "question": "When a firm receives cash from a customer, which account should be debited according to the golden rule of double entry?",
+                      "options": [
+                        "A. Sales Account",
+                        "B. Cash Account",
+                        "C. Capital Account",
+                        "D. Creditor Account"
+                      ],
+                      "correct_answer": "B. Cash Account",
+                      "explanation": "The rule states: Debit the receiver and credit the giver. Since the Cash Account is receiving the money, it must be debited.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q2.mp3"
                     },
                     {
                       "id": "ss1_acc_01_q3",
-                      "type": "fill_blank",
-                      "question": "Assets are resources owned and controlled by a business entity as a result of _______ events, from which future economic benefits are expected to flow to the business.",
-                      "correct_answer": "past",
-                      "explanation": "Assets: Assets are resources owned and controlled by a business entity as a result of past events, from which future economic benefits are expected to flow to the business.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q3.mp3"
+                      "type": "mcq",
+                      "question": "Which accounting limitation relates to recording transactions strictly at their original purchase price without accounting for inflation?",
+                      "options": [
+                        "A. Window dressing",
+                        "B. Non-monetary omission",
+                        "C. Historical cost rule",
+                        "D. Double-entry conflict"
+                      ],
+                      "correct_answer": "C. Historical cost rule",
+                      "explanation": "The notes list under disadvantages that financial accounting records transactions at historical cost, ignoring the effects of inflation.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q3.mp3"
                     },
                     {
                       "id": "ss1_acc_01_q4",
-                      "type": "theory",
-                      "question": "What is the rule of double entry regarding the receiver?",
-                      "correct_answer": "Debit the receiver",
-                      "explanation": "The Golden Rule of Double Entry states: Debit the receiver, Credit the giver.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q4.mp3"
+                      "type": "mcq",
+                      "question": "Who relies on financial accounting records to assess a business's creditworthiness before granting a loan?",
+                      "options": [
+                        "A. Tax authorities",
+                        "B. Banks and suppliers",
+                        "C. Customers",
+                        "D. Factory workers"
+                      ],
+                      "correct_answer": "B. Banks and suppliers",
+                      "explanation": "The notes state that financial accounting provides banks and suppliers with information to assess creditworthiness before granting loans or trading credit.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q4.mp3"
                     },
                     {
                       "id": "ss1_acc_01_q5",
-                      "type": "theory",
-                      "question": "Which concept states that the business entity is legally and practically separate from its owners?",
-                      "correct_answer": "Entity Concept",
-                      "explanation": "Entity Concept: The business entity is legally and practically separate from its owners.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q5.mp3"
-                    },
-                    {
-                      "id": "ss1_acc_01_q6",
                       "type": "mcq",
-                      "question": "According to double-entry rules, when a business pays cash to buy office furniture, which account should be debited?",
-                      "options": [
-                        "A. Cash Account",
-                        "B. Office Furniture Account",
-                        "C. Capital Account",
-                        "D. Sales Account"
-                      ],
-                      "correct_answer": "B. Office Furniture Account",
-                      "explanation": "The office furniture account receives value and must be debited, while the cash account gives value and must be credited.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q6.mp3"
-                    },
-                    {
-                      "id": "ss1_acc_01_q7",
-                      "type": "mcq",
-                      "question": "Which accounting concept mandates that assets must be recorded at their original purchase price?",
-                      "options": [
-                        "A. Entity Concept",
-                        "B. Dual Aspect Concept",
-                        "C. Historical Cost Concept",
-                        "D. Accrual Concept"
-                      ],
-                      "correct_answer": "C. Historical Cost Concept",
-                      "explanation": "The Historical Cost Concept dictates that assets are recorded in accounting books at their original acquisition cost.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q7.mp3"
-                    },
-                    {
-                      "id": "ss1_acc_01_q8",
-                      "type": "mcq",
-                      "question": "Which of the following describes present obligations of a business arising from past events?",
+                      "question": "Which of the following accounting elements represents financial debts or obligations owed to external parties?",
                       "options": [
                         "A. Assets",
                         "B. Capital",
                         "C. Liabilities",
-                        "D. Revenues"
+                        "D. Revenue"
                       ],
                       "correct_answer": "C. Liabilities",
-                      "explanation": "Liabilities are present obligations arising from past events that result in an outflow of economic resources.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q8.mp3"
+                      "explanation": "Liabilities are explicitly defined in the notes as financial debts or obligations owed by a business to external parties.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q5.mp3"
+                    },
+                    {
+                      "id": "ss1_acc_01_q6",
+                      "type": "fill_blank",
+                      "question": "Financial accounting is the art of recording, classifying, summarizing, and interpreting financial transactions of a business organization to enable users to make ________ decisions.",
+                      "correct_answer": "informed",
+                      "explanation": "Financial accounting is the art of recording, classifying, summarizing, and interpreting financial transactions of a business organization to enable users to make informed decisions.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q6.mp3"
+                    },
+                    {
+                      "id": "ss1_acc_01_q7",
+                      "type": "fill_blank",
+                      "question": "Assets are economic resources owned and controlled by a business entity that are expected to produce future ________ benefits.",
+                      "correct_answer": "economic",
+                      "explanation": "Assets are economic resources owned and controlled by a business entity that are expected to produce future economic benefits.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q7.mp3"
+                    },
+                    {
+                      "id": "ss1_acc_01_q8",
+                      "type": "fill_blank",
+                      "question": "The double-entry bookkeeping rule states that for every debit entry, there must be a corresponding ________ entry, and vice versa.",
+                      "correct_answer": "credit",
+                      "explanation": "The double-entry bookkeeping rule states that for every debit entry, there must be a corresponding credit entry, and vice versa.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q8.mp3"
                     },
                     {
                       "id": "ss1_acc_01_q9",
-                      "type": "mcq",
-                      "question": "A major disadvantage of financial accounting is that it:",
-                      "options": [
-                        "A. Helps businesses obtain bank loans",
-                        "B. Prevents financial fraud",
-                        "C. Ignores non-monetary items like staff morale",
-                        "D. Uses double-entry rules"
-                      ],
-                      "correct_answer": "C. Ignores non-monetary items like staff morale",
-                      "explanation": "Financial accounting records only transactions measurable in monetary terms, ignoring non-monetary aspects like employee morale.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q9.mp3"
+                      "type": "theory",
+                      "question": "What is the golden rule of double-entry bookkeeping regarding receiving and giving accounts?",
+                      "correct_answer": "Debit the receiver and credit the giver",
+                      "explanation": "The double-entry bookkeeping rule states that for every debit entry, there must be a corresponding credit entry, and vice versa. Debit the receiver and credit the giver.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q9.mp3"
                     },
                     {
                       "id": "ss1_acc_01_q10",
-                      "type": "mcq",
-                      "question": "Capital in accounting refers to:",
-                      "options": [
-                        "A. Total debts owed to external suppliers",
-                        "B. The owner's financial interest or investment in the business",
-                        "C. Goods bought for immediate resale",
-                        "D. Money paid to rent a building"
-                      ],
-                      "correct_answer": "B. The owner's financial interest or investment in the business",
-                      "explanation": "Capital represents the owner's financial interest or investment in the business entity.",
-                      "audio_path": "assets\\audio\\questions\\ss1_acc_01_q10.mp3"
+                      "type": "theory",
+                      "question": "According to the takeaway summary, what equation maintains balance equality in accounting?",
+                      "correct_answer": "Assets equals Liabilities plus Capital",
+                      "explanation": "Balance equality must always be maintained according to the accounting equation: Assets equals Liabilities plus Capital.",
+                      "audio_path": "assets/audio/questions/ss1_acc_01_q10.mp3"
                     }
                   ],
                   "challenge": {
                     "title": "Home Assignment & Practical Challenge",
-                    "instructions": "Read the scenario below and complete the classification activity in your exercise book. Show your work clearly for evaluation.",
-                    "task_question": "Scenario: Tunde started a small provisions store. During his first week, he carried out the following transactions: 1. Put personal savings into the business bank account. 2. Bought a refrigerator for storing cold drinks. 3. Purchased goods on credit from a wholesaler to pay later. 4. Paid cash to buy stationery for record keeping.\n\nTask:\nIdentify which transaction item represents Capital, which represents an Asset, which represents a Liability, and determine which account receives (Debit) and gives (Credit) in transaction 4.",
-                    "parent_grading_guide": "Parent/Guardian Grading Guide:\n- Check if the student correctly categorized each of the 4 items into Accounting elements (Capital, Asset, Liability).\n- Verify that for transaction 4, the student correctly determined which item receives value and which item gives value according to double entry rules.\n- Grade out of 10 points based on completeness, logical accuracy, and neatness of presentation."
+                    "instructions": "Read the practical business scenario provided below. Analyze the transactions and complete the requested task on a sheet of paper.",
+                    "task_question": "Scenario: Mrs. Adebayo opened a small retail store called Adebayo Trading Enterprise. During her first week of operations, she completed the following three business activities:\n1. She deposited funds from her personal savings into a newly opened bank account for the business.\n2. She bought merchandise on credit from a wholesaler named Kalu Distributors.\n3. She paid cash to settle the monthly electricity bill for her store.\n\nTask:\nFor each of the three activities listed above:\n(a) Identify the two accounts affected by the transaction.\n(b) Classify each identified account into one of the following categories: Asset, Liability, Capital, Income, or Expense.\n(c) State clearly which account should be DEBITED and which account should be CREDITED, applying the rules of double-entry bookkeeping.",
+                    "parent_grading_guide": "Parent/Guardian Assessment Guide:\n- Check that the student completed all three parts (a, b, and c) for each of the 3 transactions.\n- Confirm that the student identified two distinct accounts per transaction (one receiving value and one giving value).\n- Verify that for every transaction, the student clearly designated one account to be debited and one account to be credited, ensuring the debit matches the credit concept.\n- Score out of 10 points: Award 3 points per transaction for clear analysis and 1 point for overall neatness and logical presentation."
                   }
                 }
               ]
@@ -1034,14 +1017,14 @@
           "class_id": "ss2",
           "title": "SS 2 (Grade 11)",
           "subtitle": "Senior Secondary",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         },
         {
           "class_id": "ss3",
           "title": "SS 3 (Grade 12)",
           "subtitle": "Senior Secondary • WAEC/NECO & UTME Exam Preparation",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "subjects": []
         }
       ]
