@@ -15,7 +15,7 @@
       "subjects": [
         {
           "subject_id": "math",
-          "title": "Mathematics",
+          "title": "athematics",
           "subtitle": "Basic Operations & Speed Calculations",
           "color": [
             0.04,
@@ -42,7 +42,7 @@
               "question": "Which geometric shape is shown in the image?",
               "image_path": "assets/images/quiz/triangle.png",
               "options": [
-                "rectangle",
+                "Square",
                 "Triangle",
                 "Circle",
                 "Pentagon"
