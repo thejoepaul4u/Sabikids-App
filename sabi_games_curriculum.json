@@ -1,0 +1,22 @@
+{
+  "games": {
+    "word_builder": {
+      "version": "1.0.0",
+      "categories": [
+        {
+          "category_id": "animals",
+          "title": "Animals & Pets",
+          "words": [
+            {"word": "CAT", "hint": "A small pet that says Meow"},
+            {"word": "LION", "hint": "King of the jungle"},
+            {"word": "FISH", "hint": "Swims in water and has gills"}
+          ]
+        }
+      ]
+    },
+    "math_builder": {
+      "version": "1.0.0",
+      "categories": []
+    }
+  }
+}
