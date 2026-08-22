@@ -28,7 +28,7 @@
       "categories": []
     },
     "math_balloon_pop": {
-      "version": "1.0.0",
+      "version": "1.0.2",
       "targets": [
         {
           "target_sum": 10,
