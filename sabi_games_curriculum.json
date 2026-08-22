@@ -23,21 +23,163 @@
         }
       ]
     },
+    "math_builder": {
+      "version": "1.0.0",
+      "categories": []
+    },
     "math_balloon_pop": {
       "version": "1.0.0",
+      "targets": [
+        {
+          "target_sum": 10,
+          "min_val": 1,
+          "max_val": 9
+        },
+        {
+          "target_sum": 15,
+          "min_val": 2,
+          "max_val": 12
+        },
+        {
+          "target_sum": 20,
+          "min_val": 3,
+          "max_val": 15
+        }
+      ],
       "categories": [
         {
-          "category_id": "all_operations",
-          "title": "Mixed Operations",
+          "category_id": "addition_starter",
+          "title": "Starter Addition Sums",
           "targets": [
-            {"target_sum": 12, "operation": "add", "min_val": 1, "max_val": 10},
-            {"target_sum": 5, "operation": "subtract", "min_val": 1, "max_val": 10},
-            {"target_sum": 20, "operation": "multiply", "min_val": 2, "max_val": 10},
-            {"target_sum": 4, "operation": "divide", "min_val": 2, "max_val": 12}
+            {
+              "target_sum": 5,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 5
+            },
+            {
+              "target_sum": 7,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 7
+            },
+            {
+              "target_sum": 8,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 8
+            },
+            {
+              "target_sum": 10,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 10
+            },
+            {
+              "target_sum": 12,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 12
+            },
+            {
+              "target_sum": 14,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 14
+            },
+            {
+              "target_sum": 15,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 15
+            },
+            {
+              "target_sum": 16,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 16
+            },
+            {
+              "target_sum": 18,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 18
+            },
+            {
+              "target_sum": 20,
+              "operation": "add",
+              "min_val": 1,
+              "max_val": 20
+            }
+          ]
+        },
+        {
+          "category_id": "multiplication_starter",
+          "title": "Starter Multiplication Tables",
+          "targets": [
+            {
+              "target_sum": 12,
+              "operation": "multiply",
+              "min_val": 2,
+              "max_val": 6
+            },
+            {
+              "target_sum": 15,
+              "operation": "multiply",
+              "min_val": 2,
+              "max_val": 6
+            },
+            {
+              "target_sum": 20,
+              "operation": "multiply",
+              "min_val": 2,
+              "max_val": 10
+            },
+            {
+              "target_sum": 24,
+              "operation": "multiply",
+              "min_val": 2,
+              "max_val": 12
+            },
+            {
+              "target_sum": 18,
+              "operation": "multiply",
+              "min_val": 2,
+              "max_val": 9
+            },
+            {
+              "target_sum": 30,
+              "operation": "multiply",
+              "min_val": 3,
+              "max_val": 10
+            },
+            {
+              "target_sum": 16,
+              "operation": "multiply",
+              "min_val": 2,
+              "max_val": 8
+            },
+            {
+              "target_sum": 25,
+              "operation": "multiply",
+              "min_val": 1,
+              "max_val": 10
+            },
+            {
+              "target_sum": 36,
+              "operation": "multiply",
+              "min_val": 3,
+              "max_val": 12
+            },
+            {
+              "target_sum": 10,
+              "operation": "multiply",
+              "min_val": 1,
+              "max_val": 10
+            }
           ]
         }
       ]
     }
   }
 }
-    
