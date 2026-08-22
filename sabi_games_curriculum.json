@@ -181,5 +181,48 @@
         }
       ]
     }
+  },
+  "memory_card_match": {
+      "version": "1.0.0",
+      "categories": [
+        {
+          "category_id": "starter_memory_pairs",
+          "title": "Animals & Shapes Memory",
+          "pairs": [
+            {
+              "card_id": "lion",
+              "label": "LION",
+              "icon": "🦁"
+            },
+            {
+              "card_id": "dog",
+              "label": "DOG",
+              "icon": "🐶"
+            },
+            {
+              "card_id": "cat",
+              "label": "CAT",
+              "icon": "🐱"
+            },
+            {
+              "card_id": "fish",
+              "label": "FISH",
+              "icon": "🐟"
+            },
+            {
+              "card_id": "apple",
+              "label": "APPLE",
+              "icon": "🍎"
+            },
+            {
+              "card_id": "star",
+              "label": "STAR",
+              "icon": "⭐"
+            }
+          ]
+        }
+      ]
+    }
   }
+}
 }
