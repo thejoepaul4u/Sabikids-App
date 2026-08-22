@@ -24,7 +24,7 @@
       ]
     },
     "math_builder": {
-      "version": "1.0.2",
+      "version": "1.0.0",
       "categories": []
     },
     "math_balloon_pop": {
@@ -180,49 +180,47 @@
           ]
         }
       ]
-    }
-  },
-  "memory_card_match": {
-      "version": "1.0.0",
+    },
+    "memory_card_match": {
+      "version": "1.0.1",
       "categories": [
         {
           "category_id": "starter_memory_pairs",
           "title": "Animals & Shapes Memory",
           "pairs": [
             {
-              "card_id": "lion",
-              "label": "LION",
-              "icon": "🦁"
+              "card_id": "cat",
+              "label": "CAT",
+              "icon": "assets/images/cat.png"
             },
             {
               "card_id": "dog",
               "label": "DOG",
-              "icon": "🐶"
+              "icon": "assets/images/dog.png"
             },
             {
-              "card_id": "cat",
-              "label": "CAT",
-              "icon": "🐱"
+              "card_id": "lion",
+              "label": "LION",
+              "icon": "assets/images/lion.png"
             },
             {
               "card_id": "fish",
               "label": "FISH",
-              "icon": "🐟"
+              "icon": "assets/images/fish.png"
             },
             {
               "card_id": "apple",
               "label": "APPLE",
-              "icon": "🍎"
+              "icon": "assets/images/apple.png"
             },
             {
               "card_id": "star",
               "label": "STAR",
-              "icon": "⭐"
+              "icon": "assets/images/star.png"
             }
           ]
         }
       ]
     }
   }
-}
 }
