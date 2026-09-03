@@ -26,41 +26,17 @@
             {
               "id": "q1",
               "type": "mcq",
-              "question": "In what year did Nigeria gain independence?",
+              "question": "In which year did Nigeria gain independence from British rule?",
               "options": [
-                "1950",
+                "1957",
                 "1960",
-                "1970",
-                "1980"
+                "1963",
+                "1970"
               ],
               "correct_answer": "1960"
             },
             {
               "id": "q2",
-              "type": "mcq",
-              "question": "Who was the first Prime Minister of independent Nigeria?",
-              "options": [
-                "Nnamdi Azikiwe",
-                "Abubakar Tafawa Balewa",
-                "Obafemi Awolowo",
-                "Ahmadu Bello"
-              ],
-              "correct_answer": "Abubakar Tafawa Balewa"
-            },
-            {
-              "id": "q3",
-              "type": "mcq",
-              "question": "Which date is celebrated as Nigeria's Independence Day?",
-              "options": [
-                "October 1",
-                "May 29",
-                "January 1",
-                "October 12"
-              ],
-              "correct_answer": "October 1"
-            },
-            {
-              "id": "nig_soc_l1_q1",
               "type": "mcq",
               "question": "Who was the first Prime Minister of independent Nigeria?",
               "options": [
@@ -72,62 +48,14 @@
               "correct_answer": "Sir Abubakar Tafawa Balewa"
             },
             {
-              "id": "nig_soc_l1_q2",
-              "type": "mcq",
-              "question": "In what year did Nigeria gain independence from British rule?",
-              "options": [
-                "1960",
-                "1963",
-                "1957",
-                "1970"
-              ],
-              "correct_answer": "1960"
-            },
-            {
-              "id": "nig_soc_l1_q3",
-              "type": "mcq",
-              "question": "Which date is celebrated as Nigeria's Independence Day?",
-              "options": [
-                "1st October",
-                "1st November",
-                "27th May",
-                "12th June"
-              ],
-              "correct_answer": "1st October"
-            },
-            {
-              "id": "q1",
-              "type": "mcq",
-              "question": "In what year did Nigeria gain independence from British rule?",
-              "options": [
-                "1957",
-                "1960",
-                "1963",
-                "1970"
-              ],
-              "correct_answer": "1960"
-            },
-            {
-              "id": "q2",
-              "type": "mcq",
-              "question": "Who was the first Prime Minister of independent Nigeria?",
-              "options": [
-                "Abubakar Tafawa Balewa",
-                "Nnamdi Azikiwe",
-                "Obafemi Awolowo",
-                "Ahmadu Bello"
-              ],
-              "correct_answer": "Abubakar Tafawa Balewa"
-            },
-            {
               "id": "q3",
               "type": "mcq",
-              "question": "On which date does Nigeria celebrate its Independence Day every year?",
+              "question": "On which date is Nigeria's Independence Day celebrated every year?",
               "options": [
-                "January 1st",
-                "May 29th",
                 "October 1st",
-                "June 12th"
+                "October 5th",
+                "October 12th",
+                "October 24th"
               ],
               "correct_answer": "October 1st"
             }
@@ -159,364 +87,40 @@
           ],
           "quizzes": [
             {
-              "id": "q1",
+              "id": "fr_l1_q1",
               "type": "mcq",
-              "question": "A company breached a long-term loan agreement before its reporting date of 31 December 2022, making the loan payable on demand. On 10 January 2023, before the financial statements were authorized, the lender agreed not to demand immediate payment. How should this loan be classified as at 31 December 2022?",
+              "question": "When an entity in severe financial difficulty prepares its financial statements on a break-up basis rather than a going concern basis, how are its non-current assets classified and measured on the Statement of Financial Position?",
               "options": [
-                "Non-current liability",
-                "Current liability",
-                "Disclosure in notes only",
-                "Equity instrument"
+                "Classified as current assets and valued at recoverable amount on sale",
+                "Classified as non-current assets and valued at historical cost less depreciation",
+                "Classified as current assets and valued at historical cost less impairment",
+                "Classified as non-current assets and valued at fair value less cost to sell"
               ],
-              "correct_answer": "Current liability"
+              "correct_answer": "Classified as current assets and valued at recoverable amount on sale"
             },
             {
-              "id": "q2",
+              "id": "fr_l1_q2",
               "type": "mcq",
-              "question": "Joe Co buys 100 T-shirts in January for N3.50 each in cash. During January, 30 T-shirts are sold for cash at N7.00 each. What is the profit or loss for January under the Accrual Basis and Cash Basis respectively?",
+              "question": "A company sells goods to a third party for N10,000 with an agreement to repurchase them in 12 months for N11,000. Applying the principle of substance over legal form, how should the seller record this transaction at inception?",
               "options": [
-                "Accrual: Profit N105; Cash: Loss N140",
-                "Accrual: Profit N105; Cash: Profit N210",
-                "Accrual: Profit N350; Cash: Loss N140",
-                "Accrual: Loss N105; Cash: Loss N350"
+                "Retain goods in inventory and recognize a liability for N10,000",
+                "Record a sale of N10,000 and recognize the immediate profit in profit or loss",
+                "Record a purchase of N11,000 and a trade payable of N11,000",
+                "Derecognize the inventory and record a trade receivable of N1,000"
               ],
-              "correct_answer": "Accrual: Profit N105; Cash: Loss N140"
+              "correct_answer": "Retain goods in inventory and recognize a liability for N10,000"
             },
             {
-              "id": "q3",
+              "id": "fr_l1_q3",
               "type": "mcq",
-              "question": "A company facing liquidation prepares its financial statements on a break-up basis. It owns a building carried at N1,500,000, but real estate professionals advise it can only be sold for N1,200,000. How should this asset be classified and valued?",
-              "options": [
-                "Non-current asset at N1,500,000",
-                "Current asset at N1,200,000",
-                "Non-current asset at N1,200,000",
-                "Current asset at N1,500,000"
-              ],
-              "correct_answer": "Current asset at N1,200,000"
-            },
-            {
-              "id": "q4",
-              "type": "mcq",
-              "question": "Under Chapter 2 of the IASB Conceptual Framework, which two features are identified as the Fundamental Qualitative Characteristics of useful financial information?",
-              "options": [
-                "Comparability and Verifiability",
-                "Relevance and Faithful Representation",
-                "Timeliness and Understandability",
-                "Relevance and Reliability"
-              ],
-              "correct_answer": "Relevance and Faithful Representation"
-            },
-            {
-              "id": "q5",
-              "type": "mcq",
-              "question": "MCPAPA Ltd sells goods to Bola Ltd for N10,000, committing to repurchase them in 12 months for N11,000. Applying the principle of substance over legal form, how should MCPAPA Ltd record this transaction initially?",
-              "options": [
-                "Record a sale of N10,000 and derecognize the goods from inventory",
-                "Retain the goods in inventory and recognize a financial liability of N10,000",
-                "Record a purchase of N11,000 immediately",
-                "Disclose as a contingent asset of N1,000 in the notes"
-              ],
-              "correct_answer": "Retain the goods in inventory and recognize a financial liability of N10,000"
-            },
-            {
-              "id": "q6",
-              "type": "mcq",
-              "question": "According to the IASB Conceptual Framework, a perfectly faithful representation possesses which three characteristics?",
-              "options": [
-                "Relevant, Material, and Comparable",
-                "Complete, Neutral, and Free from error",
-                "Understandable, Verifiable, and Timely",
-                "Objective, Unbiased, and Material"
-              ],
-              "correct_answer": "Complete, Neutral, and Free from error"
-            },
-            {
-              "id": "q7",
-              "type": "mcq",
-              "question": "How is 'Value in Use' defined under current value measurement bases in the Conceptual Framework?",
-              "options": [
-                "The price that would be received to sell an asset in an orderly transaction between market participants",
-                "The amount of cash or cash equivalents that would have to be paid if the same asset was acquired currently",
-                "The present value of cash flows or other economic benefits an entity expects to derive from the use of an asset and its ultimate disposal",
-                "The undiscounted amount of cash required to settle an obligation currently"
-              ],
-              "correct_answer": "The present value of cash flows or other economic benefits an entity expects to derive from the use of an asset and its ultimate disposal"
-            },
-            {
-              "id": "q8",
-              "type": "mcq",
-              "question": "Which of the following items is required to be recognized in Other Comprehensive Income (OCI) rather than Profit or Loss?",
-              "options": [
-                "Write-downs of inventories to net realizable value",
-                "Gains and losses arising from translating the financial statements of a foreign operation",
-                "Restructurings of the activities of an entity",
-                "Litigation settlements"
-              ],
-              "correct_answer": "Gains and losses arising from translating the financial statements of a foreign operation"
-            },
-            {
-              "id": "q9",
-              "type": "mcq",
-              "question": "Which of the following is a legal requirement in Nigeria regarding annual published financial statements of registered companies under CAMA?",
-              "options": [
-                "They must be published in at least 2 national daily newspapers and signed by a director with an FRC registration number",
-                "They must be prepared strictly in accordance with US GAAP",
-                "Unincorporated entities are completely exempt from all legislation, including the Charities Act",
-                "Small private limited companies must publish quarterly financial statements"
-              ],
-              "correct_answer": "They must be published in at least 2 national daily newspapers and signed by a director with an FRC registration number"
-            },
-            {
-              "id": "q10",
-              "type": "mcq",
-              "question": "Under the concept of Physical Capital Maintenance, profit is earned only if:",
-              "options": [
-                "The monetary capital at the end of the period exceeds opening monetary capital",
-                "The physical productive capacity at the end of the period exceeds the physical productive capacity at the start of the period",
-                "Closing equity adjusted by a general price index exceeds opening equity",
-                "Revenue exceeds cash operating expenses"
-              ],
-              "correct_answer": "The physical productive capacity at the end of the period exceeds the physical productive capacity at the start of the period"
-            },
-            {
-              "id": "q11",
-              "type": "mcq",
-              "question": "Which group of financial statement users requires information primarily to assess whether loans and related interest will be paid when due, and whether financial restrictions have been breached?",
-              "options": [
-                "Present and potential investors",
-                "Lenders",
-                "Suppliers and trade payables",
-                "Customers"
-              ],
-              "correct_answer": "Lenders"
-            },
-            {
-              "id": "q12",
-              "type": "mcq",
-              "question": "Derecognition of a financial asset from an entity's Statement of Financial Position normally occurs when:",
-              "options": [
-                "The asset is revalued upwards",
-                "The entity loses control of all or part of the recognized asset",
-                "The entity changes its accounting policy from cost model to revaluation model",
-                "The asset's carrying value reaches zero"
-              ],
-              "correct_answer": "The entity loses control of all or part of the recognized asset"
-            },
-            {
-              "id": "q13",
-              "type": "mcq",
-              "question": "When an entity categorizes its expenses by function (Cost of Sales method), what minimum disclosures regarding the nature of expenses must be provided in the notes?",
-              "options": [
-                "Raw materials, transport costs, and legal fees",
-                "Depreciation, amortization, and employee benefits expense",
-                "Sales commission, audit fees, and rent expense",
-                "Directors' remuneration, advertising, and repairs"
-              ],
-              "correct_answer": "Depreciation, amortization, and employee benefits expense"
-            },
-            {
-              "id": "q14",
-              "type": "mcq",
-              "question": "An asset has a carrying amount of N500,000 and a tax base of N400,000. If the income tax rate is 30%, what is the deferred tax position?",
-              "options": [
-                "Deferred tax asset of N30,000",
-                "Deferred tax liability of N30,000",
-                "Deferred tax liability of N120,000",
-                "Deferred tax asset of N100,000"
-              ],
-              "correct_answer": "Deferred tax liability of N30,000"
-            },
-            {
-              "id": "q15",
-              "type": "mcq",
-              "question": "Which enhancing qualitative characteristic enables financial statement users to identify and understand similarities in, and differences among, items across different entities or periods?",
-              "options": [
-                "Consistency",
-                "Verifiability",
-                "Comparability",
-                "Understandability"
-              ],
-              "correct_answer": "Comparability"
-            },
-            {
-              "id": "q1",
-              "type": "mcq",
-              "question": "Under the Nigerian legal framework for corporate financial reporting, which of the following is a legal requirement for published financial statements?",
-              "options": [
-                "Publishing in at least 2 national dailies and signed by a director with an FRC registration number",
-                "Publishing in at least 1 international journal and signed by an external auditor only",
-                "Filing exclusively with the Stock Exchange without public daily newspaper release",
-                "Publishing quarterly in at least 3 national dailies without an FRC registration number"
-              ],
-              "correct_answer": "Publishing in at least 2 national dailies and signed by a director with an FRC registration number"
-            },
-            {
-              "id": "q2",
-              "type": "mcq",
-              "question": "A company in severe financial distress is preparing accounts to 31 December on a Break-up Basis. A building carried at N1,500,000 can only be sold for N1,200,000. How should this building be presented?",
-              "options": [
-                "Re-measured at N1,200,000 as a current asset",
-                "Kept at N1,500,000 as a non-current asset with a note disclosure",
-                "Re-measured at N1,200,000 as a non-current asset",
-                "Written off completely to N0 as an extraordinary item"
-              ],
-              "correct_answer": "Re-measured at N1,200,000 as a current asset"
-            },
-            {
-              "id": "q3",
-              "type": "mcq",
-              "question": "MCPAPA Ltd sells goods to Bola Ltd for N10,000 and agrees to repurchase them in 12 months for N11,000. Applying substance over form, how should MCPAPA Ltd record this transaction?",
-              "options": [
-                "Treat the transaction as a secured loan of N10,000 and accrue N1,000 interest expense",
-                "Record an outright sale of N10,000 and recognize profit immediately",
-                "Record a purchase of N11,000 and eliminate inventory",
-                "Treat as a sale with a contingent asset of N1,000"
-              ],
-              "correct_answer": "Treat the transaction as a secured loan of N10,000 and accrue N1,000 interest expense"
-            },
-            {
-              "id": "q4",
-              "type": "mcq",
-              "question": "According to the IASB Conceptual Framework, which of the following pairs are the Fundamental Qualitative Characteristics of useful financial information?",
+              "question": "According to Chapter 2 of the IASB Conceptual Framework for Financial Reporting, which of the following are categorized as the fundamental qualitative characteristics of useful financial information?",
               "options": [
                 "Relevance and Faithful Representation",
-                "Comparability and Verifiability",
-                "Understandability and Timeliness",
-                "Relevance and Comparability"
+                "Comparability, Verifiability, Timeliness, and Understandability",
+                "Understandability, Relevance, Reliability, and Comparability",
+                "Faithful Representation, Neutrality, Prudence, and Completeness"
               ],
               "correct_answer": "Relevance and Faithful Representation"
-            },
-            {
-              "id": "q5",
-              "type": "mcq",
-              "question": "To achieve a perfectly faithful representation in financial reports, information must possess which three characteristics?",
-              "options": [
-                "Complete, Neutral, and Free from error",
-                "Relevant, Comparable, and Material",
-                "Timely, Verifiable, and Understandable",
-                "Historical, Objective, and Audited"
-              ],
-              "correct_answer": "Complete, Neutral, and Free from error"
-            },
-            {
-              "id": "q6",
-              "type": "mcq",
-              "question": "An entity breaches a covenant under a long-term loan agreement before the reporting date, making it payable on demand. After the reporting date but before authorization, the lender agrees not to demand payment. How is the loan classified?",
-              "options": [
-                "Current liability",
-                "Non-current liability",
-                "Contingent liability",
-                "Equity reserve"
-              ],
-              "correct_answer": "Current liability"
-            },
-            {
-              "id": "q7",
-              "type": "mcq",
-              "question": "Financial information is relevant if it has predictive or confirmatory value. Which entity-specific aspect directly impacts relevance?",
-              "options": [
-                "Materiality",
-                "Verifiability",
-                "Timeliness",
-                "Prudence"
-              ],
-              "correct_answer": "Materiality"
-            },
-            {
-              "id": "q8",
-              "type": "mcq",
-              "question": "Under the revised IASB Conceptual Framework, how is an Asset defined?",
-              "options": [
-                "A present economic resource controlled by the entity as a result of past events",
-                "A physical property owned legally by the company giving rise to revenue",
-                "A future cash inflow that is guaranteed by a contractual arrangement",
-                "A residual interest in the assets of the entity after deducting all liabilities"
-              ],
-              "correct_answer": "A present economic resource controlled by the entity as a result of past events"
-            },
-            {
-              "id": "q9",
-              "type": "mcq",
-              "question": "Value in use for assets and fulfillment value for liabilities are examples of which measurement basis?",
-              "options": [
-                "Current value",
-                "Historical cost",
-                "Prudent value",
-                "Realizable cost"
-              ],
-              "correct_answer": "Current value"
-            },
-            {
-              "id": "q10",
-              "type": "mcq",
-              "question": "Under the physical concept of capital maintenance, when is profit earned during an accounting period?",
-              "options": [
-                "Only after the physical productive capacity at the end of the period exceeds that at the start",
-                "When nominal monetary net assets at the end of the period exceed those at the start",
-                "When constant purchasing power of equity increases over general inflation",
-                "Whenever gross profit exceeds operating costs regardless of asset replacement"
-              ],
-              "correct_answer": "Only after the physical productive capacity at the end of the period exceeds that at the start"
-            },
-            {
-              "id": "q11",
-              "type": "mcq",
-              "question": "Joe Co buys 100 T-shirts in January for N3.50 each in cash. During January, 30 T-shirts are sold for cash at N7.00 each. What is the profit for January under the Accrual Basis?",
-              "options": [
-                "N105.00",
-                "N210.00",
-                "N-140.00",
-                "N350.00"
-              ],
-              "correct_answer": "N105.00"
-            },
-            {
-              "id": "q12",
-              "type": "mcq",
-              "question": "Which user group specifically requires financial statements to assess risk and return on investment and the entity's ability to pay dividends?",
-              "options": [
-                "Present and Potential Investors",
-                "Lenders and Debenture Holders",
-                "Trade Suppliers and Creditors",
-                "Government Agencies"
-              ],
-              "correct_answer": "Present and Potential Investors"
-            },
-            {
-              "id": "q13",
-              "type": "mcq",
-              "question": "In financial accounting, derecognition of a financial asset normally occurs when which condition is satisfied?",
-              "options": [
-                "The entity loses control of all or part of the recognized asset",
-                "The carrying amount of the asset exceeds its recoverable amount",
-                "The asset is revalued upward using current market values",
-                "The legal title is temporarily transferred as security for a loan"
-              ],
-              "correct_answer": "The entity loses control of all or part of the recognized asset"
-            },
-            {
-              "id": "q14",
-              "type": "mcq",
-              "question": "Which of the following qualitative characteristics is classified as an Enhancing Qualitative Characteristic under the Conceptual Framework?",
-              "options": [
-                "Verifiability",
-                "Relevance",
-                "Faithful Representation",
-                "Prudence"
-              ],
-              "correct_answer": "Verifiability"
-            },
-            {
-              "id": "q15",
-              "type": "mcq",
-              "question": "According to the IASB Framework, what does the application of Prudence involve when preparing financial statements?",
-              "options": [
-                "Exercising caution when making judgements under conditions of uncertainty",
-                "Creating hidden reserves to cushion against future economic downturns",
-                "Deliberately understating assets and overstating liabilities",
-                "Recognizing profits before they are realized to maintain share value"
-              ],
-              "correct_answer": "Exercising caution when making judgements under conditions of uncertainty"
             }
           ]
         }
@@ -548,74 +152,38 @@
             {
               "id": "q1",
               "type": "mcq",
-              "question": "Under Section 143(2) of the 1999 Constitution of Nigeria (as amended), what is the required vote threshold in each House of the National Assembly to pass a motion to investigate allegations of gross misconduct against the President?",
+              "question": "Under Section 143(4) of the 1999 Constitution of Nigeria (as amended), what majority is required in each House of the National Assembly to pass a motion that allegations of gross misconduct against the President be investigated?",
               "options": [
-                "Two-thirds majority of all members of each House",
-                "Two-thirds majority of members present and voting",
-                "Simple majority of all members of each House",
-                "Three-fifths majority of all members of each House"
+                "Simple majority of members present and voting",
+                "Not less than two-thirds majority of all members of each House",
+                "Absolute majority of all members of the National Assembly sitting jointly",
+                "Three-quarters majority of the Senate only"
               ],
-              "correct_answer": "Two-thirds majority of all members of each House"
+              "correct_answer": "Not less than two-thirds majority of all members of each House"
             },
             {
               "id": "q2",
               "type": "mcq",
-              "question": "Pursuant to Section 9(3) of the 1999 Constitution of Nigeria, which strict voting threshold in the National Assembly is required to alter Chapter IV (Fundamental Rights)?",
+              "question": "Which of the following matters is contained in the Concurrent Legislative List rather than the Exclusive Legislative List under the Second Schedule of the 1999 Constitution of Nigeria?",
               "options": [
-                "Four-fifths majority of all members of each House",
-                "Two-thirds majority of all members of each House",
-                "Three-quarters majority of present members of each House",
-                "Simple majority of all members of the Joint National Assembly"
+                "Currency, coinage and legal tender",
+                "Allocation of wave-lengths for wireless broadcasting",
+                "Industrial, commercial or agricultural development",
+                "Citizenship, naturalisation and aliens"
               ],
-              "correct_answer": "Four-fifths majority of all members of each House"
+              "correct_answer": "Industrial, commercial or agricultural development"
             },
             {
               "id": "q3",
               "type": "mcq",
-              "question": "Under Section 232 of the 1999 Constitution of Nigeria (as amended), the Supreme Court exercises original jurisdiction to the exclusion of any other court primarily in which scenario?",
+              "question": "According to Section 179(1) of the 1999 Constitution, what requirement must a sole nominated candidate for Governor satisfy to be declared duly elected?",
               "options": [
-                "Disputes between the Federation and a State, or between States involving a legal right",
-                "Disputes between a State Governor and the State House of Assembly",
-                "Electoral petitions arising directly from Presidential elections",
-                "Civil suits alleging fundamental human rights breaches against the Federal Government"
+                "He is automatically declared elected by the electoral commission without any voting process",
+                "He must win a simple majority of YES votes over NO votes and at least one-quarter of votes cast in each of at least two-thirds of all local government areas in the State",
+                "He must secure at least 50 percent of total registered voters in the State in a referendum",
+                "He must receive approval from two-thirds of members of the State House of Assembly"
               ],
-              "correct_answer": "Disputes between the Federation and a State, or between States involving a legal right"
-            },
-            {
-              "id": "ng_const_q1",
-              "type": "mcq",
-              "question": "Under Section 9(3) of the 1999 Constitution of Nigeria (as amended), what voting threshold in each House of the National Assembly is required to pass an amendment to Chapter IV regarding Fundamental Rights?",
-              "options": [
-                "Four-fifths majority of all members",
-                "Two-thirds majority of all members",
-                "Simple majority of members present and voting",
-                "Three-quarters majority of a joint sitting"
-              ],
-              "correct_answer": "Four-fifths majority of all members"
-            },
-            {
-              "id": "ng_const_q2",
-              "type": "mcq",
-              "question": "Which of the following matters falls strictly under the Exclusive Legislative List in Part I of the Second Schedule to the 1999 Constitution of Nigeria?",
-              "options": [
-                "Copyright",
-                "Higher education institutions",
-                "Collection of local rates",
-                "Electric power generation off the national grid"
-              ],
-              "correct_answer": "Copyright"
-            },
-            {
-              "id": "ng_const_q3",
-              "type": "mcq",
-              "question": "Under Section 143 of the 1999 Constitution of Nigeria, who is empowered to appoint the seven-person panel to investigate allegations of gross misconduct against the President?",
-              "options": [
-                "The Chief Justice of Nigeria",
-                "The President of the Senate",
-                "The Speaker of the House of Representatives",
-                "The Attorney-General of the Federation"
-              ],
-              "correct_answer": "The Chief Justice of Nigeria"
+              "correct_answer": "He must win a simple majority of YES votes over NO votes and at least one-quarter of votes cast in each of at least two-thirds of all local government areas in the State"
             }
           ]
         }
