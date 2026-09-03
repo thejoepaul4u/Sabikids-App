@@ -2,7 +2,7 @@
   "levels": [
     {
       "level_id": "level_1",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "Primary Education General Challenges",
       "subtitle": "Primary 1–6",
       "color": [
@@ -65,7 +65,7 @@
     },
     {
       "level_id": "level_2",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "Junior Secondary Education General Challenges",
       "subtitle": "JSS 1–3",
       "color": [
@@ -128,7 +128,7 @@
     },
     {
       "level_id": "level_3",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "Senior Secondary Education General Challenges",
       "subtitle": "SSS 1–3",
       "color": [
