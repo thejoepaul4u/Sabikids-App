@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.4",
   "last_updated": "2026-07-31",
   "tiers": [
     {
       "tier_id": "pre_primary",
-      "title": "Pre-Primary Education",
+      "title": "Primary Education",
       "subtitle": "Early Childhood & School Readiness • Ages 0 - 6",
       "color": [
         0.15,
