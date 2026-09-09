@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "last_updated": "2026-07-31",
   "tiers": [
     {
@@ -31,7 +31,7 @@
           "class_id": "nursery_1",
           "title": "Nursery 1",
           "subtitle": "Ages 3 - 4 • Early Literacy & Basic Sounds",
-          "version": "1.0.3",
+          "version": "1.0.4",
           "subjects": [
             {
               "subject_id": "n1_literacy",
