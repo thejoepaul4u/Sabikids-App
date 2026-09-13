@@ -1,5 +1,5 @@
 {
   "app_version": "1.2.0",
-  "mandatory_update": false,
+  "mandatory_update": True,
   "changelog": "A new version of Sabi Learners is available! Visit the Play Store / App Store to update for new features."
 }
