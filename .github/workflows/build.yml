@@ -76,7 +76,7 @@ jobs:
 
           python -m pip install --upgrade \
             "pip==24.0" \
-            setuptools \
+            "setuptools<70" \
             wheel
 
           python -m pip install \
