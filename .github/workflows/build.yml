@@ -18,8 +18,9 @@ jobs:
 
     - name: Install dependencies
       run: |
-        sudo apt update
-        sudo apt install -y \
+        export DEBIAN_FRONTEND=noninteractive
+        sudo apt-get update -y
+        sudo apt-get install -y \
             git zip unzip openjdk-17-jdk python3-pip \
             autoconf libtool pkg-config zlib1g-dev \
             libncurses5-dev libncursesw5-dev libtinfo5 \
