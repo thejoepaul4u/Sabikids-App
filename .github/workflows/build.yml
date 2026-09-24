@@ -32,6 +32,8 @@ jobs:
         pip install cython buildozer
 
     - name: Build with Buildozer
+      env:
+        P4A_NDK_VERSION: "25b"
       run: |
         yes | buildozer -v android debug
 
