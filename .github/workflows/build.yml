@@ -2,51 +2,67 @@ name: Build Android APK
 
 on:
   push:
-    branches: [main, master]
+    branches:
+      - main
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
+          cache: "pip"
 
-      - name: Install dependencies
+      - name: Install system dependencies
         run: |
           export DEBIAN_FRONTEND=noninteractive
 
           sudo apt-get update
           sudo apt-get install -y \
-            git zip unzip \
+            git \
+            zip \
+            unzip \
             openjdk-17-jdk \
-            autoconf automake \
-            libtool libtool-bin \
+            autoconf \
+            automake \
+            libtool \
+            libtool-bin \
             pkg-config \
             zlib1g-dev \
-            libncurses5-dev libncursesw5-dev \
-            libffi-dev libssl-dev \
+            libncurses5-dev \
+            libncursesw5-dev \
+            libffi-dev \
+            libssl-dev \
             cmake
 
-      - name: Install Buildozer and Cython
+      - name: Install Python build tools
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install "cython<3" buildozer
+          python -m pip install --upgrade "pip==24.0" setuptools wheel
 
-      - name: Build with Buildozer
+          python -m pip install \
+            "buildozer==1.5.0" \
+            "python-for-android==2023.09.16" \
+            "cython==0.29.34" \
+            "virtualenv<21"
+
+      - name: Build APK
         env:
           P4A_NDK_VERSION: "25b"
           ACLOCAL_PATH: "/usr/share/aclocal"
         run: |
-          rm -rf .buildozer
+          rm -rf .buildozer bin
           yes | buildozer -v android debug
 
-      - name: Upload APK Artifact
+      - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: package
           path: bin/*.apk
+          if-no-files-found: error
