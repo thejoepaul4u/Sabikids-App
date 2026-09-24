@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+.media_cache/
+.vscode/
+bin/
+.buildozer/
