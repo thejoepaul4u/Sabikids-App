@@ -9,7 +9,7 @@ version = 0.1
 
 requirements = python3,kivy==2.2.1,kivymd==1.1.1,requests,pillow,pyjnius,plyer
 
-orientation = all
+orientation = portrait
 fullscreen = 0
 
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
