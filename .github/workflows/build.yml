@@ -6,8 +6,14 @@ on:
       - main
       - master
 
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
 jobs:
   build:
+    name: Build Android APK
     runs-on: ubuntu-22.04
 
     steps:
@@ -18,18 +24,26 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-          cache: "pip"
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
 
       - name: Install system dependencies
+        shell: bash
         run: |
+          set -euxo pipefail
+
           export DEBIAN_FRONTEND=noninteractive
 
           sudo apt-get update
+
           sudo apt-get install -y \
             git \
             zip \
             unzip \
-            openjdk-17-jdk \
             autoconf \
             automake \
             libtool \
@@ -42,9 +56,28 @@ jobs:
             libssl-dev \
             cmake
 
-      - name: Install Python build tools
+      - name: Verify project files
+        shell: bash
         run: |
-          python -m pip install --upgrade "pip==24.0" setuptools wheel
+          set -euxo pipefail
+
+          test -f buildozer.spec || {
+            echo "::error::buildozer.spec was not found in the repository root."
+            exit 1
+          }
+
+          echo "Found buildozer.spec"
+          ls -la
+
+      - name: Install Python build tools
+        shell: bash
+        run: |
+          set -euxo pipefail
+
+          python -m pip install --upgrade \
+            "pip==24.0" \
+            setuptools \
+            wheel
 
           python -m pip install \
             "buildozer==1.5.0" \
@@ -52,17 +85,38 @@ jobs:
             "cython==0.29.34" \
             "virtualenv<21"
 
-      - name: Build APK
+          buildozer --version
+          python -m pip check
+
+      - name: Build Android APK
+        shell: bash
         env:
           P4A_NDK_VERSION: "25b"
           ACLOCAL_PATH: "/usr/share/aclocal"
         run: |
+          set -euxo pipefail
+
           rm -rf .buildozer bin
+
           yes | buildozer -v android debug
+
+      - name: Verify APK output
+        shell: bash
+        run: |
+          set -euxo pipefail
+
+          apk_count=$(find bin -maxdepth 1 -type f -name "*.apk" | wc -l)
+
+          if [ "$apk_count" -eq 0 ]; then
+            echo "::error::No APK file was produced."
+            exit 1
+          fi
+
+          find bin -maxdepth 1 -type f -name "*.apk" -print
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: package
+          name: sabilearners-debug-apk
           path: bin/*.apk
           if-no-files-found: error
