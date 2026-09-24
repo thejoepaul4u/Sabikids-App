@@ -11,6 +11,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: android-build-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Build Android APK
@@ -24,12 +28,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
+          cache: pip
 
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: "17"
+          cache: gradle
 
       - name: Install system dependencies
         shell: bash
@@ -54,7 +60,9 @@ jobs:
             libncursesw5-dev \
             libffi-dev \
             libssl-dev \
-            cmake
+            cmake \
+            build-essential \
+            ccache
 
       - name: Verify project files
         shell: bash
@@ -66,8 +74,8 @@ jobs:
             exit 1
           }
 
-          echo "Found buildozer.spec"
-          ls -la
+          echo "Buildozer configuration:"
+          sed -n '1,240p' buildozer.spec
 
       - name: Install Python build tools
         shell: bash
@@ -77,26 +85,53 @@ jobs:
           python -m pip install --upgrade \
             "pip==24.0" \
             "setuptools<70" \
-            wheel
+            "wheel"
 
           python -m pip install \
             "buildozer==1.5.0" \
-            "python-for-android==2023.09.16" \
+            "python-for-android==2024.01.21" \
             "cython==0.29.34" \
             "virtualenv<21"
 
           buildozer --version
           python -m pip check
 
+      - name: Configure Android build environment
+        shell: bash
+        run: |
+          set -euxo pipefail
+
+          echo "P4A_NDK_VERSION=25b" >> "$GITHUB_ENV"
+          echo "ACLOCAL_PATH=/usr/share/aclocal" >> "$GITHUB_ENV"
+
+          # Prevent pip's externally-managed-environment protection from
+          # interfering with python-for-android's internal environment.
+          echo "PIP_BREAK_SYSTEM_PACKAGES=1" >> "$GITHUB_ENV"
+
+          # Avoid excessive compiler output and speed up repeated native builds.
+          echo "USE_CCACHE=1" >> "$GITHUB_ENV"
+
+      - name: Clean previous Android build
+        shell: bash
+        run: |
+          set -euxo pipefail
+
+          rm -rf \
+            .buildozer \
+            bin \
+            "$HOME/.buildozer"
+
+          mkdir -p bin
+
       - name: Build Android APK
         shell: bash
         env:
           P4A_NDK_VERSION: "25b"
           ACLOCAL_PATH: "/usr/share/aclocal"
+          PIP_BREAK_SYSTEM_PACKAGES: "1"
+          USE_CCACHE: "1"
         run: |
           set -euxo pipefail
-
-          rm -rf .buildozer bin
 
           yes | buildozer -v android debug
 
@@ -105,14 +140,16 @@ jobs:
         run: |
           set -euxo pipefail
 
-          apk_count=$(find bin -maxdepth 1 -type f -name "*.apk" | wc -l)
+          apk_count="$(find bin -maxdepth 1 -type f -name '*.apk' | wc -l)"
 
           if [ "$apk_count" -eq 0 ]; then
             echo "::error::No APK file was produced."
+            echo "Contents of bin/:"
+            find bin -maxdepth 2 -type f -print || true
             exit 1
           fi
 
-          find bin -maxdepth 1 -type f -name "*.apk" -print
+          find bin -maxdepth 1 -type f -name '*.apk' -print
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
