@@ -8,7 +8,7 @@ source.dir = .
 source.include_exts = py,png,jpg,jpeg,kv,atlas,json,txt,db,ttf,otf,mp3,mp4,wav
 version = 0.1.0
 
-requirements = python3,kivy==2.3.1,requests==2.34.2,pillow==11.3.0,plyer==2.1.0,pyjnius
+requirements = python3, kivy==2.3.1, requests==2.32.3, pillow==10.4.0, plyer==2.1.0, pyjnius, charset-normalizer==3.3.2
 
 android.api = 33
 android.minapi = 24
