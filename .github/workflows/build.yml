@@ -87,7 +87,7 @@ jobs:
 
           python -m pip install \
             "buildozer==1.5.0" \
-            "python-for-android==2024.02.23" \
+            "python-for-android==2024.01.21" \
             "cython==0.29.34" \
             "virtualenv<21"
 
