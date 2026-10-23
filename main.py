@@ -19,7 +19,7 @@ from kivy.core.window import Window
 # Minimum window limits for desktop environments
 if sys.platform in ('win32', 'darwin', 'linux'):
     Window.minimum_width = 320    #360
-    Window.minimum_height = 568  #550
+    Window.minimum_height = 320  #550
 
 
 import threading
